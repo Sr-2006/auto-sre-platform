@@ -5,94 +5,133 @@
 | Attribute | Details |
 | :--- | :--- |
 | **Project Name** | Smart Horizon Hackathon - V2 Microservices & Auto-SRE Engine |
-| **Last Modified Date** | August 7, 2026 |
-| **Current Phase** | Phase 1 (Log Clustering & Priority Engine) Complete. Ready for Phase 2. |
-| **Repository State** | Initialized, Dockerized, telemetry extraction active, frontline noise-reduction deployed. |
+| **Last Modified Date** | August 8, 2026 |
+| **Current Phase** | Phase 1 & Telemetry Layer Complete. ML Training Dataset Compiled & Packaged. |
+| **Repository State** | Fully instrumented, dockerized, telemetry extraction robustly handling Windows OS file locks. |
 
 ---
 
-## System Architecture Overview
+## 1. System Architecture & Tech Stack
 
-The system is an event-driven, microservices-based architecture built with Java (Spring Boot), heavily instrumented for comprehensive observability and active Chaos Engineering.
+The system is a distributed, event-driven microservices architecture built for high throughput, scalability, and robust observability.
 
-*   **Edge / Entry (API Gateway):** Acts as the single entry point. Handles JWT-based authentication validation and houses the primary `FailureInjectionFilter` to simulate network-level degradation (latency, HTTP 429 rate-limiting).
-*   **Auth Service:** Handles user registration, login, and JWT generation.
-*   **Order Service:** Core business logic for processing orders.
-*   **Payment Service:** Core business logic for financial transactions.
-*   **Data Layer:** A single consolidated PostgreSQL 16 container managing isolated logical databases (`auth_db`, `order_db`, `payment_db`). Caching via Redis 7. Message brokering via RabbitMQ 3.
-*   **Observability Pipeline:** 100% trace sampling via OpenTelemetry Collector exporting metrics to Prometheus and traces to Jaeger. Real-time telemetry is continuously extracted and synchronized into JSON schemas.
-*   **Auto-SRE Engine:** A multi-phase pipeline that clusters noisy logs, mathematically prioritizes them, and prepares them for LLM-based Root Cause Analysis (RCA).
-
----
-
-## Complete File & Directory Inventory
-
-### Root Configuration, Automation & Telemetry Scripts
-
-| File | Description |
-| :--- | :--- |
-| `docker-compose.yml` | Master infrastructure orchestrator defining containers and `ara.topology.group` labels. |
-| `run.ps1` | Automated PowerShell execution script to cleanly tear down, build, and deploy the cluster. |
-| `load_generator.py` | Python traffic generator simulating user flows and chaos endpoint triggers. |
-| `continuous_telemetry.py` | Data extractor daemon querying Docker container state and resource metrics. |
-| `frontend_data_sync.py` | Formatter daemon that transforms raw telemetry dumps into structured JSON files. |
-| `chaos_orchestrator.py` | Automated chaos injection tool using Docker SDK to manipulate container states. |
-| `phase1_processor.py` | **[NEW]** Drain3-powered log clustering and dynamic priority scoring engine. |
-| `otel-collector-config.yaml` | Defines OpenTelemetry Collector receivers, processors, and exporters. |
-| `prometheus.yml` | Scrape configuration instructing Prometheus to pull metrics. |
-
-### Telemetry Output Layer (`frontend_data/`)
-
-| File | Description |
-| :--- | :--- |
-| `status.json` | Real-time operational status and health metrics of active microservices. |
-| `time_series.json` | Historical CPU/Memory usage metrics across container lifecycles. |
-| `events_and_incidents.json` | Raw incident logs recording chaos triggers and stack traces. |
-| `processed_incidents.json` | **[NEW]** Clean, deduplicated, and prioritized incident templates outputted by Phase 1. |
-| `analytics.json` (etc.) | Operational analysis datasets including causality and cost ROI mapping. |
-
-### Microservices Source Directories
-
-| Directory | Description |
-| :--- | :--- |
-| `api-gateway/` | Contains `FailureInjectionFilter.java` and edge security configurations. |
-| `auth-service/` | Contains user domain logic, JWT generation, and `auth_db` connections. |
-| `order-service/` | Contains order processing logic and `order_db` connections. |
-| `payment-service/` | Contains financial transaction logic and `payment_db` connections. |
-| `postgres-init/` | Contains `init.sql` for auto-provisioning isolated databases. |
+*   **API Gateway (Java / Spring Boot 3.2.5):** Entry point routing traffic internally. Contains a `FailureInjectionFilter` that simulates thread blocks, rate-limiting, and connection resets.
+*   **Auth Service (Java / Spring Boot 3.2.5):** Coordinates user registration and JWT generation. Interacts with Postgres for storage and Redis for caching.
+*   **Order Service (Java / Spring Boot 3.2.3):** Core order creation and query routing. Communicates with RabbitMQ for event-driven coordination and Postgres for transactional records.
+*   **Payment Service (Java / Spring Boot 3.2.3):** Handles simulated financial transactions and coordinates event updates via RabbitMQ.
+*   **Infrastructure Layer:**
+    *   **PostgreSQL 16 (Alpine):** Consolidates isolated schemas (`auth_db`, `order_db`, `payment_db`).
+    *   **Redis 7 (Alpine):** Distributed key-value cache.
+    *   **RabbitMQ 3 (Management/Alpine):** Event message broker.
+*   **Observability Pipeline:**
+    *   **OpenTelemetry Collector:** Aggregates span data from services using the OTLP/gRPC protocol on port `4317`.
+    *   **Jaeger:** Serves as the distributed tracing storage and query UI (`http://localhost:16686`).
+    *   **Prometheus:** Pulls metric data from the microservices `/actuator/prometheus` endpoints.
+    *   **Grafana:** Dashboard analytics interface on port `3000`.
 
 ---
 
-## Changelog & Historical Log
+## 2. File & Script Specification Registry
 
-*   **Pre-August 2026:** Designed microservices architecture and implemented Spring Boot core logic.
-*   **August 5, 2026:** Consolidated databases, wired OTLP tracing, and validated Python telemetry extraction.
-*   **August 7, 2026:** Designed and deployed `phase1_processor.py` to act as the frontline noise filter.
-*   **August 7, 2026:** Implemented Drain3 unsupervised machine learning to dynamically cluster unknown Java stack traces.
-*   **August 7, 2026:** Built composite key generation (`container_clusterID`) to accurately isolate errors to specific microservices.
-*   **August 7, 2026:** Engineered a mathematical priority scoring system prioritizing errors based on velocity, blast radius, and physical container health.
-*   **August 7, 2026:** Validated the `processed_incidents.json` payload contract for Phase 2 handoff.
+### A. Simulators & Traffic Generators
+*   **`load_generator.py`:** A Python traffic pump that runs continuously, invoking internal routes on the gateway (`http://localhost:8080`). It specifically triggers failure-injection paths (e.g. `/chaos/timeout`, `/chaos/oom`, `/chaos/latency`) to populate error logs.
+*   **`chaos_orchestrator.py`:** An infrastructure-level fault injection engine. It connects to the host's Docker daemon, randomly pauses a key dependency (`postgres-db` or `redis`) for 30 seconds, and then restores it, forcing the microservices to handle network cut-offs.
+
+### B. Telemetry Daemons
+*   **`continuous_telemetry.py`:** Polls the Docker engine every 5 seconds to query container lifecycle states and fetch resource metrics (CPU/Memory usage). It pulls stdout/stderr logs from the containers and dumps batch directories into `telemetry_dumps/`.
+*   **`frontend_data_sync.py`:** Formats raw dumps into clean JSON schemas in `frontend_data/`. It is optimized for Windows OS by resolving absolute paths and using a retry/fallback mechanism on `atomic_write` to handle file-locking. It dynamically computes:
+    *   `memory_usage_percent` (relative to the container limits).
+    *   `cpu_percent` (accounting for multiple WSL2 logical cores).
+    *   `system_health_score` (100 baseline, degraded by container outages, high resource usage, and error severity).
+    *   `active_warnings` (log scanner counting `WARN` and `ERROR` keywords).
+
+### C. SRE Log Processors & Packagers
+*   **`phase1_processor.py`:** The frontline log engine. It reads recent events, parses them using Drain3, assigns severity keywords, and calculates a priority score.
+*   **`package_ml_dataset.py`:** An orchestrator script that compiles all distinct telemetry files (`status.json`, `time_series.json`, `events_and_incidents.json`, `processed_incidents.json`) into a single joined model: `ml_dataset/unified_master_dataset.json`.
+
+---
+
+## 3. Log Parsing & Unsupervised Clustering (Drain3)
+
+To group millions of unstructured logs into distinct, manageable failure modes without manual labelling, the SRE engine implements the **Drain3** algorithm:
+
+*   **Tree-Structured Parsing:** Drain3 builds a parse tree based on log structure. It uses tokens and length-based nodes to group similar messages together.
+*   **Dynamic Parameter Masking:** Regular expressions replace variable details in logs (such as IPs, Hex addresses, UUIDs, and numbers) with standard tokens (e.g., `<IP>`, `<HEX>`, `<UUID>`, `<NUM>`).
+*   **Composite Isolation Key:** The engine constructs a composite namespace identifier:
+    $$\text{Composite ID} = \text{container\_name} + \text{"\_"} + \text{drain\_cluster\_id}$$
+    This guarantees that identical log templates (e.g., connection exceptions) are isolated and blamed on the specific microservice container that threw them.
 
 ---
 
-## Active Configuration & Endpoints
+## 4. Priority Scoring Logic
 
-### Infrastructure Ports
+Incidents are prioritized in the queue sequentially based on a composite priority score:
 
-| Service | Endpoint / Port | Credentials (If Applicable) |
-| :--- | :--- | :--- |
-| **API Gateway** | `http://localhost:8080` | N/A |
-| **Auth / Order / Payment** | `8081`, `8082`, `8083` (Internal) | N/A |
-| **PostgreSQL** | `localhost:5432` | `postgres` / `postgres` |
-| **Redis** | `localhost:6379` | N/A |
-| **RabbitMQ** | `localhost:5672` (UI: `15672`) | `guest` / `guest` |
+$$\text{Priority Score} = (\text{Base Severity Weight} \times \log_{10}(\text{Occurrence Count} + 1)) + \text{State Penalty}$$
 
-### Observability UIs
-
-| Dashboard | URL | Credentials |
-| :--- | :--- | :--- |
-| **Jaeger UI** | `http://localhost:16686` | N/A |
-| **Prometheus UI** | `http://localhost:9090` | N/A |
-| **Grafana UI** | `http://localhost:3000` | `admin` / `admin` |
+### Parameters:
+1.  **Base Severity Weight:** Determined by scanning the log header:
+    *   `CRITICAL` (40): Catastrophic system errors (`OOM`, `FATAL`, `TIMEOUT`, `CONNECTION RESET`).
+    *   `HIGH` (30): Application errors (`ERROR`, `EXCEPTION`, `FAILED`).
+    *   `MEDIUM` (20): System warnings (`WARN`).
+2.  **Logarithmic Velocity Scaling:** $\log_{10}(\text{Occurrence Count} + 1)$ prevents high-frequency warnings from flooding out low-frequency, highly critical crashes. It scales log volumes down logarithmically (e.g. 1 occurrence $\approx 0.30$; 1,000 occurrences $\approx 3.00$).
+3.  **State Penalty:** Adds a flat **+50 point penalty** if the container's Docker state is `exited`, `paused`, or `unhealthy`, forcing dead nodes to the top of the queue.
 
 ---
+
+## 5. Failure Simulation Catalog
+
+The SRE engine currently logs and categorizes the following simulated failure signatures:
+
+| Service / Container | Injected Fault | Resulting Log Signatures | Mined Template Example |
+| :--- | :--- | :--- | :--- |
+| **`postgres-db`** (Paused) | Dependency Outage | Connection validation failure, Spring Actuator health timeouts. | `<NUM> com.zaxxer.hikari.pool.PoolBase : HikariPool-<NUM> - Failed to validate connection org.postgresql.jdbc.PgConnection (This connection has been closed.)` |
+| **`redis`** (Paused) | Cache Timeout | Spring Boot health indicator thread blocks. | `o.s.b.a.health.HealthEndpointSupport : Health contributor (redis) took <NUM>ms to respond` |
+| **`api-gateway`** | Exporter congestion | Trace export failures in background threads. | `i.o.exporter.internal.http.HttpExporter : Failed to export spans. Full error message: Connection reset` |
+| **`payment-service`** | Simulated DB lock | Database pool initialization failures. | `com.zaxxer.hikari.pool.HikariPool : HikariPool-<NUM> - Exception during pool initialization.` |
+| **`order-service`** | Simulated metrics lag | Prometheus metrics scraper handler failures. | `GlobalExceptionHandler : [SRE-LOG-EVENT] System Failure: /actuator/prometheus. StackTrace:` |
+
+---
+
+## 6. ML Dataset Schema (`unified_master_dataset.json`)
+
+The output of the dataset compiler binds all angles of telemetry into a clean record schema for ML models:
+
+```json
+[
+  {
+    "incident_id": "api-gateway_2",
+    "target_service": "api-gateway",
+    "incident_priority_score": 79.65,
+    "incident_severity": "CRITICAL",
+    "log_pattern_template": "<NUM>-<NUM>-<NUM>T... i.o.exporter.internal.http.HttpExporter : Failed to export spans. Connection reset",
+    "occurrence_count": 97,
+    "service_health_at_capture": {
+      "docker_status": "running",
+      "health_check": "healthy"
+    },
+    "topology_context": {
+      "service_role": "edge-routing-and-rate-limiting",
+      "depends_on_services": ["auth-service", "order-service", "payment-service", "otel-collector"],
+      "exposed_ports": ["8080:8080"]
+    },
+    "associated_logs_samples": [
+      {
+        "timestamp": "2026-08-08T12:55:44.678Z",
+        "log_content": "...java.net.SocketException: Connection reset...",
+        "trace_id": null,
+        "span_id": null
+      }
+    ],
+    "service_performance_samples": [
+      {
+        "timestamp": "2026-08-08T13:42:03.177Z",
+        "cpu_percent": 12.37,
+        "memory_usage": 313708544,
+        "memory_usage_percent": 3.76
+      }
+    ]
+  }
+]
+```
+This comprehensive structured dataset allows models to jointly analyze logs, metrics, topologies, and trace contexts.
