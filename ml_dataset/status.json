@@ -9,7 +9,7 @@
         "id": "e4e06c15b721",
         "name": "auth-service",
         "status": "running",
-        "health": "unhealthy"
+        "health": "healthy"
     },
     {
         "id": "850bd4afd350",
@@ -26,7 +26,7 @@
     {
         "id": "17ca13c8d67e",
         "name": "postgres-db",
-        "status": "running",
+        "status": "paused",
         "health": "unhealthy"
     },
     {

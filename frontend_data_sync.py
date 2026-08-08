@@ -51,6 +51,7 @@ def calculate_memory_percent(stats):
     return 0.0
 
 def atomic_write(filepath, data):
+    filepath = os.path.abspath(filepath)
     dir_name = os.path.dirname(filepath)
     os.makedirs(dir_name, exist_ok=True)
     fd, temp_path = tempfile.mkstemp(dir=dir_name)
