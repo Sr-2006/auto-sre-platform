@@ -4,29 +4,43 @@ import time
 client = docker.from_env()
 
 def inject_chaos():
-    print("[CHAOS] Initializing ARA Chaos Orchestrator...")
-    try:
-        # Locate the core database container
-        postgres_container = client.containers.get("postgres-db")
-        
-        print(f"[CHAOS] Found target: {postgres_container.name}")
-        print("[CHAOS] INJECTING FAULT: Pausing postgres-db to simulate critical outage...")
-        postgres_container.pause()
-        
-        # Keep it paused for 30 seconds to allow the telemetry daemons to capture the failure state
-        print("[CHAOS] Database is frozen. Let the telemetry sync catch the HTTP 503 errors...")
-        for i in range(30, 0, -1):
-            print(f"--- Restoring in {i} seconds...", end="\r")
-            time.sleep(1)
-            
-        print("\n[CHAOS] REMEDIATION: Unpausing postgres-db...")
-        postgres_container.unpause()
-        print("[CHAOS] Database restored. Chaos test complete. Check your JSON files!")
-        
-    except docker.errors.NotFound:
-        print("[ERROR] Could not find 'postgres-db'. Is the container running?")
-    except Exception as e:
-        print(f"[ERROR] Chaos injection failed: {e}")
+    print("[CHAOS] Initializing ARA Chaos Orchestrator (Silent Infra Pump)...")
+    
+    cycle = ["postgres-db", "redis"]
+    
+    while True:
+        for target in cycle:
+            try:
+                container = client.containers.get(target)
+                container.reload()
+                
+                if container.status == 'paused':
+                    print(f"[INFRA] {target} is already paused, unpausing first...")
+                    container.unpause()
+                    time.sleep(2)
+
+                print(f"[INFRA] Pausing {target}")
+                container.pause()
+                
+                time.sleep(10)
+                
+                print(f"[INFRA] Restoring {target}")
+                container.reload()
+                if container.status == 'paused':
+                    container.unpause()
+                
+                time.sleep(10)
+                
+            except docker.errors.NotFound:
+                print(f"[ERROR] Could not find '{target}'. Is the container running?")
+                time.sleep(10)
+            except Exception as e:
+                print(f"[ERROR] Chaos injection failed on {target}: {e}")
+                try:
+                    container.unpause()
+                except:
+                    pass
+                time.sleep(10)
 
 if __name__ == "__main__":
     inject_chaos()

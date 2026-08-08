@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/payments")
+@RequestMapping("/api/v1/payments")
 public class PaymentController {
 
     @PostMapping("/process")
@@ -24,6 +24,11 @@ public class PaymentController {
             Thread.currentThread().interrupt();
         }
         return ResponseEntity.ok("Artificial Payment Latency");
+    }
+
+    @GetMapping("/chaos/oom")
+    public ResponseEntity<String> simulateOOM() {
+        throw new OutOfMemoryError("Java heap space");
     }
 
     @GetMapping("/chaos/decline")

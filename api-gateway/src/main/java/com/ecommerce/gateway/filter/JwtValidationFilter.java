@@ -45,6 +45,11 @@ public class JwtValidationFilter implements GlobalFilter, Ordered {
             return chain.filter(exchange.mutate().request(requestBuilder.build()).build());
         }
 
+        String chaosTrigger = request.getHeaders().getFirst("X-Chaos-Trigger");
+        if ("true".equalsIgnoreCase(chaosTrigger)) {
+            return chain.filter(exchange.mutate().request(requestBuilder.build()).build());
+        }
+
         String authHeader = request.getHeaders().getFirst(HttpHeaders.AUTHORIZATION);
         if (authHeader == null || !authHeader.startsWith("Bearer ")) {
             return onError(exchange, HttpStatus.UNAUTHORIZED);

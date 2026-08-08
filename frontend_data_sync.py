@@ -14,7 +14,7 @@ def get_latest_batch_dir():
         dirs = [os.path.join(DUMP_DIR, d) for d in os.listdir(DUMP_DIR) if d.startswith("batch_")]
         if not dirs:
             return None
-        return max(dirs, key=os.path.getmtime)
+        return max(dirs)
     except Exception:
         return None
 

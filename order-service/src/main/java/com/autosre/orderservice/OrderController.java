@@ -1,5 +1,7 @@
 package com.autosre.orderservice;
 
+import jakarta.persistence.QueryTimeoutException;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/orders")
+@RequestMapping("/api/v1/orders")
 public class OrderController {
 
     @PostMapping
@@ -18,12 +20,12 @@ public class OrderController {
 
     @GetMapping("/chaos/timeout")
     public ResponseEntity<String> simulateTimeout() {
-        try {
-            Thread.sleep(8000);
-        } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
-        }
-        return ResponseEntity.status(HttpStatus.REQUEST_TIMEOUT).body("Simulated Timeout Failure");
+        throw new QueryTimeoutException("Connection timed out after 30s");
+    }
+
+    @GetMapping("/chaos/logic_fail")
+    public ResponseEntity<String> simulateLogicFail() {
+        throw new NullPointerException("User context is null");
     }
 
     @GetMapping("/chaos/error")

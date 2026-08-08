@@ -9,6 +9,11 @@ spring:
     username: postgres
     password: password
     driver-class-name: org.postgresql.Driver
+    hikari:
+      connection-timeout: 3000 # 3s - fail fast
+      validation-timeout: 2000 # 2s
+      max-lifetime: 20000      # 20s - rotate connections frequently to clear stale sockets
+      idle-timeout: 10000      # 10s
   jpa:
     hibernate:
       ddl-auto: update
@@ -33,3 +38,7 @@ management:
   otlp:
     tracing:
       endpoint: http://otel-collector:4318/v1/traces
+
+logging:
+  level:
+    io.opentelemetry: ERROR
