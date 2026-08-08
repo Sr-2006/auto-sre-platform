@@ -29,27 +29,35 @@ def run_telemetry_loop():
         network_state = []
         
         for container in containers:
-            state_info = {
-                "id": container.id[:12],
-                "name": container.name,
-                "status": container.status,
-                "health": container.attrs.get("State", {}).get("Health", {}).get("Status", "unknown")
-            }
-            network_state.append(state_info)
-            
-            if container.status == "running":
-                stats = container.stats(stream=False)
-                with open(os.path.join(batch_dir, f"{container.name}_metrics.json"), "w") as f:
-                    json.dump(stats, f)
-                    
-            logs = container.logs(
-                since=int(last_poll_time.timestamp()),
-                until=int(current_poll_time.timestamp())
-            )
-            
-            if logs:
-                with open(os.path.join(batch_dir, f"{container.name}_logs.txt"), "wb") as f:
-                    f.write(logs)
+            try:
+                state_info = {
+                    "id": container.id[:12],
+                    "name": container.name,
+                    "status": container.status,
+                    "health": container.attrs.get("State", {}).get("Health", {}).get("Status", "unknown")
+                }
+                network_state.append(state_info)
+                
+                if container.status == "running":
+                    try:
+                        stats = container.stats(stream=False)
+                        with open(os.path.join(batch_dir, f"{container.name}_metrics.json"), "w") as f:
+                            json.dump(stats, f)
+                    except Exception as e:
+                        print(f"[TELEMETRY ERROR] Failed to fetch stats for {container.name}: {e}")
+                        
+                try:
+                    logs = container.logs(
+                        since=int(last_poll_time.timestamp()),
+                        until=int(current_poll_time.timestamp())
+                    )
+                    if logs:
+                        with open(os.path.join(batch_dir, f"{container.name}_logs.txt"), "wb") as f:
+                            f.write(logs)
+                except Exception as e:
+                    print(f"[TELEMETRY ERROR] Failed to fetch logs for {container.name}: {e}")
+            except Exception as e:
+                print(f"[TELEMETRY ERROR] Failed to process container {container.name}: {e}")
         
         with open(os.path.join(batch_dir, "network_state.json"), "w") as f:
             json.dump(network_state, f, indent=4)
