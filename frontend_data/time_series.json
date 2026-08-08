@@ -1,3031 +1,1003 @@
 [
     {
-        "timestamp": "2026-08-08T13:31:32.941481",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309116928
-    },
-    {
-        "timestamp": "2026-08-08T13:31:38.192008",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313131008
-    },
-    {
-        "timestamp": "2026-08-08T13:31:38.207790",
+        "timestamp": "2026-08-08T14:08:18.771714",
         "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 369848320
+        "cpu_percent": 49.243793103448276,
+        "memory_usage": 58216448,
+        "memory_usage_percent": 0.6989537086396245
     },
     {
-        "timestamp": "2026-08-08T13:31:38.208804",
+        "timestamp": "2026-08-08T14:08:18.804135",
         "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309116928
+        "cpu_percent": 28.362242990654206,
+        "memory_usage": 49516544,
+        "memory_usage_percent": 0.5945016100573011
     },
     {
-        "timestamp": "2026-08-08T13:31:38.263819",
+        "timestamp": "2026-08-08T14:08:18.830655",
         "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297353216
+        "cpu_percent": 74.11138613861387,
+        "memory_usage": 83812352,
+        "memory_usage_percent": 1.006261224666432
     },
     {
-        "timestamp": "2026-08-08T13:31:43.424807",
+        "timestamp": "2026-08-08T14:08:23.874991",
         "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313131008
+        "cpu_percent": 50.66024813895782,
+        "memory_usage": 68833280,
+        "memory_usage_percent": 0.826420676401104
     },
     {
-        "timestamp": "2026-08-08T13:31:43.425351",
+        "timestamp": "2026-08-08T14:08:23.875799",
         "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 369848320
+        "cpu_percent": 49.243793103448276,
+        "memory_usage": 58216448,
+        "memory_usage_percent": 0.6989537086396245
     },
     {
-        "timestamp": "2026-08-08T13:31:43.425900",
+        "timestamp": "2026-08-08T14:08:23.876350",
         "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309116928
+        "cpu_percent": 28.362242990654206,
+        "memory_usage": 49516544,
+        "memory_usage_percent": 0.5945016100573011
     },
     {
-        "timestamp": "2026-08-08T13:31:43.426452",
+        "timestamp": "2026-08-08T14:08:23.876930",
         "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297353216
+        "cpu_percent": 74.11138613861387,
+        "memory_usage": 83812352,
+        "memory_usage_percent": 1.006261224666432
     },
     {
-        "timestamp": "2026-08-08T13:31:43.444737",
+        "timestamp": "2026-08-08T14:08:23.942981",
         "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73936896
+        "cpu_percent": 15.727254901960785,
+        "memory_usage": 114274304,
+        "memory_usage_percent": 1.3719911009172507
     },
     {
-        "timestamp": "2026-08-08T13:31:43.461408",
+        "timestamp": "2026-08-08T14:08:28.987698",
+        "container": "api-gateway",
+        "cpu_percent": 50.66024813895782,
+        "memory_usage": 68833280,
+        "memory_usage_percent": 0.826420676401104
+    },
+    {
+        "timestamp": "2026-08-08T14:08:28.988212",
+        "container": "auth-service",
+        "cpu_percent": 49.243793103448276,
+        "memory_usage": 58216448,
+        "memory_usage_percent": 0.6989537086396245
+    },
+    {
+        "timestamp": "2026-08-08T14:08:28.988212",
+        "container": "order-service",
+        "cpu_percent": 28.362242990654206,
+        "memory_usage": 49516544,
+        "memory_usage_percent": 0.5945016100573011
+    },
+    {
+        "timestamp": "2026-08-08T14:08:28.989225",
+        "container": "payment-service",
+        "cpu_percent": 74.11138613861387,
+        "memory_usage": 83812352,
+        "memory_usage_percent": 1.006261224666432
+    },
+    {
+        "timestamp": "2026-08-08T14:08:28.989225",
+        "container": "postgres-db",
+        "cpu_percent": 15.727254901960785,
+        "memory_usage": 114274304,
+        "memory_usage_percent": 1.3719911009172507
+    },
+    {
+        "timestamp": "2026-08-08T14:08:29.024366",
         "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147423232
+        "cpu_percent": 61.63164179104478,
+        "memory_usage": 111730688,
+        "memory_usage_percent": 1.3414521398910628
     },
     {
-        "timestamp": "2026-08-08T13:31:43.478189",
+        "timestamp": "2026-08-08T14:08:29.046742",
+        "container": "redis",
+        "cpu_percent": 0.8391051454138703,
+        "memory_usage": 3436544,
+        "memory_usage_percent": 0.041259562481435655
+    },
+    {
+        "timestamp": "2026-08-08T14:08:34.145099",
+        "container": "order-service",
+        "cpu_percent": 69.82350000000001,
+        "memory_usage": 171167744,
+        "memory_usage_percent": 2.055060615657586
+    },
+    {
+        "timestamp": "2026-08-08T14:08:39.214239",
+        "container": "api-gateway",
+        "cpu_percent": 53.52251889168765,
+        "memory_usage": 154017792,
+        "memory_usage_percent": 1.8491562198175728
+    },
+    {
+        "timestamp": "2026-08-08T14:08:39.256984",
+        "container": "auth-service",
+        "cpu_percent": 40.807150259067356,
+        "memory_usage": 118353920,
+        "memory_usage_percent": 1.4209714635293007
+    },
+    {
+        "timestamp": "2026-08-08T14:08:39.256984",
+        "container": "order-service",
+        "cpu_percent": 69.82350000000001,
+        "memory_usage": 171167744,
+        "memory_usage_percent": 2.055060615657586
+    },
+    {
+        "timestamp": "2026-08-08T14:08:39.311911",
+        "container": "payment-service",
+        "cpu_percent": 65.67943661971832,
+        "memory_usage": 180678656,
+        "memory_usage_percent": 2.1692497742772447
+    },
+    {
+        "timestamp": "2026-08-08T14:08:44.329506",
+        "container": "api-gateway",
+        "cpu_percent": 53.52251889168765,
+        "memory_usage": 154017792,
+        "memory_usage_percent": 1.8491562198175728
+    },
+    {
+        "timestamp": "2026-08-08T14:08:44.330314",
+        "container": "auth-service",
+        "cpu_percent": 40.807150259067356,
+        "memory_usage": 118353920,
+        "memory_usage_percent": 1.4209714635293007
+    },
+    {
+        "timestamp": "2026-08-08T14:08:44.330883",
+        "container": "order-service",
+        "cpu_percent": 69.82350000000001,
+        "memory_usage": 171167744,
+        "memory_usage_percent": 2.055060615657586
+    },
+    {
+        "timestamp": "2026-08-08T14:08:44.331430",
+        "container": "payment-service",
+        "cpu_percent": 65.67943661971832,
+        "memory_usage": 180678656,
+        "memory_usage_percent": 2.1692497742772447
+    },
+    {
+        "timestamp": "2026-08-08T14:08:44.381188",
+        "container": "postgres-db",
+        "cpu_percent": 0.046098191214470285,
+        "memory_usage": 114356224,
+        "memory_usage_percent": 1.3729746423351634
+    },
+    {
+        "timestamp": "2026-08-08T14:08:44.411943",
+        "container": "redis",
+        "cpu_percent": 0.7485995085995085,
+        "memory_usage": 3440640,
+        "memory_usage_percent": 0.04130873955233129
+    },
+    {
+        "timestamp": "2026-08-08T14:08:54.468988",
+        "container": "auth-service",
+        "cpu_percent": 73.05094527363184,
+        "memory_usage": 138678272,
+        "memory_usage_percent": 1.664988089313429
+    },
+    {
+        "timestamp": "2026-08-08T14:08:54.518444",
+        "container": "order-service",
+        "cpu_percent": 72.62328358208954,
+        "memory_usage": 172310528,
+        "memory_usage_percent": 2.068781018437467
+    },
+    {
+        "timestamp": "2026-08-08T14:08:59.596479",
+        "container": "api-gateway",
+        "cpu_percent": 74.78,
+        "memory_usage": 155492352,
+        "memory_usage_percent": 1.8668599653400004
+    },
+    {
+        "timestamp": "2026-08-08T14:08:59.596479",
+        "container": "auth-service",
+        "cpu_percent": 73.05094527363184,
+        "memory_usage": 138678272,
+        "memory_usage_percent": 1.664988089313429
+    },
+    {
+        "timestamp": "2026-08-08T14:08:59.597734",
+        "container": "order-service",
+        "cpu_percent": 72.62328358208954,
+        "memory_usage": 172310528,
+        "memory_usage_percent": 2.068781018437467
+    },
+    {
+        "timestamp": "2026-08-08T14:08:59.639521",
+        "container": "payment-service",
+        "cpu_percent": 32.78938574938575,
+        "memory_usage": 180424704,
+        "memory_usage_percent": 2.1662007958817155
+    },
+    {
+        "timestamp": "2026-08-08T14:08:59.671813",
+        "container": "postgres-db",
+        "cpu_percent": 0.054987593052109186,
+        "memory_usage": 115830784,
+        "memory_usage_percent": 1.390678387857591
+    },
+    {
+        "timestamp": "2026-08-08T14:09:04.716960",
+        "container": "api-gateway",
+        "cpu_percent": 74.78,
+        "memory_usage": 155492352,
+        "memory_usage_percent": 1.8668599653400004
+    },
+    {
+        "timestamp": "2026-08-08T14:09:04.716960",
+        "container": "auth-service",
+        "cpu_percent": 73.05094527363184,
+        "memory_usage": 138678272,
+        "memory_usage_percent": 1.664988089313429
+    },
+    {
+        "timestamp": "2026-08-08T14:09:04.717974",
+        "container": "order-service",
+        "cpu_percent": 72.62328358208954,
+        "memory_usage": 172310528,
+        "memory_usage_percent": 2.068781018437467
+    },
+    {
+        "timestamp": "2026-08-08T14:09:04.717974",
+        "container": "payment-service",
+        "cpu_percent": 32.78938574938575,
+        "memory_usage": 180424704,
+        "memory_usage_percent": 2.1662007958817155
+    },
+    {
+        "timestamp": "2026-08-08T14:09:04.717974",
+        "container": "postgres-db",
+        "cpu_percent": 0.054987593052109186,
+        "memory_usage": 115830784,
+        "memory_usage_percent": 1.390678387857591
+    },
+    {
+        "timestamp": "2026-08-08T14:09:04.777401",
+        "container": "rabbitmq",
+        "cpu_percent": 68.07770573566084,
+        "memory_usage": 174993408,
+        "memory_usage_percent": 2.1009919998741067
+    },
+    {
+        "timestamp": "2026-08-08T14:09:04.802477",
+        "container": "redis",
+        "cpu_percent": 0.6450746268656716,
+        "memory_usage": 3444736,
+        "memory_usage_percent": 0.04135791662322692
+    },
+    {
+        "timestamp": "2026-08-08T14:09:09.872036",
+        "container": "order-service",
+        "cpu_percent": 61.83373737373737,
+        "memory_usage": 231571456,
+        "memory_usage_percent": 2.780274880155478
+    },
+    {
+        "timestamp": "2026-08-08T14:09:14.953518",
+        "container": "auth-service",
+        "cpu_percent": 158.70586466165412,
+        "memory_usage": 201265152,
+        "memory_usage_percent": 2.416413732598693
+    },
+    {
+        "timestamp": "2026-08-08T14:09:14.954519",
+        "container": "order-service",
+        "cpu_percent": 61.83373737373737,
+        "memory_usage": 231571456,
+        "memory_usage_percent": 2.780274880155478
+    },
+    {
+        "timestamp": "2026-08-08T14:09:15.009673",
+        "container": "payment-service",
+        "cpu_percent": 12.939255583126553,
+        "memory_usage": 262135808,
+        "memory_usage_percent": 3.1472341831786874
+    },
+    {
+        "timestamp": "2026-08-08T14:09:20.100591",
+        "container": "api-gateway",
+        "cpu_percent": 80.1775421686747,
+        "memory_usage": 240984064,
+        "memory_usage_percent": 2.893283789073642
+    },
+    {
+        "timestamp": "2026-08-08T14:09:20.101107",
+        "container": "auth-service",
+        "cpu_percent": 158.70586466165412,
+        "memory_usage": 201265152,
+        "memory_usage_percent": 2.416413732598693
+    },
+    {
+        "timestamp": "2026-08-08T14:09:20.101107",
+        "container": "order-service",
+        "cpu_percent": 61.83373737373737,
+        "memory_usage": 231571456,
+        "memory_usage_percent": 2.780274880155478
+    },
+    {
+        "timestamp": "2026-08-08T14:09:20.102654",
+        "container": "payment-service",
+        "cpu_percent": 12.939255583126553,
+        "memory_usage": 262135808,
+        "memory_usage_percent": 3.1472341831786874
+    },
+    {
+        "timestamp": "2026-08-08T14:09:20.156418",
+        "container": "rabbitmq",
+        "cpu_percent": 94.62980198019802,
+        "memory_usage": 202887168,
+        "memory_usage_percent": 2.435887852673364
+    },
+    {
+        "timestamp": "2026-08-08T14:09:20.183112",
+        "container": "redis",
+        "cpu_percent": 0.7108717948717949,
+        "memory_usage": 3444736,
+        "memory_usage_percent": 0.04135791662322692
+    },
+    {
+        "timestamp": "2026-08-08T14:09:30.284269",
+        "container": "auth-service",
+        "cpu_percent": 154.73078880407124,
+        "memory_usage": 229224448,
+        "memory_usage_percent": 2.7520964185322807
+    },
+    {
+        "timestamp": "2026-08-08T14:09:30.334160",
+        "container": "order-service",
+        "cpu_percent": 93.4890909090909,
+        "memory_usage": 260145152,
+        "memory_usage_percent": 3.1233341267234103
+    },
+    {
+        "timestamp": "2026-08-08T14:09:30.393029",
+        "container": "payment-service",
+        "cpu_percent": 0.28972431077694233,
+        "memory_usage": 297684992,
+        "memory_usage_percent": 3.574041981481882
+    },
+    {
+        "timestamp": "2026-08-08T14:09:35.452429",
+        "container": "api-gateway",
+        "cpu_percent": 1.017920792079208,
+        "memory_usage": 259629056,
+        "memory_usage_percent": 3.117137815790561
+    },
+    {
+        "timestamp": "2026-08-08T14:09:35.452981",
+        "container": "auth-service",
+        "cpu_percent": 154.73078880407124,
+        "memory_usage": 229224448,
+        "memory_usage_percent": 2.7520964185322807
+    },
+    {
+        "timestamp": "2026-08-08T14:09:35.453995",
+        "container": "order-service",
+        "cpu_percent": 93.4890909090909,
+        "memory_usage": 260145152,
+        "memory_usage_percent": 3.1233341267234103
+    },
+    {
+        "timestamp": "2026-08-08T14:09:35.454993",
+        "container": "payment-service",
+        "cpu_percent": 0.28972431077694233,
+        "memory_usage": 297684992,
+        "memory_usage_percent": 3.574041981481882
+    },
+    {
+        "timestamp": "2026-08-08T14:09:35.478489",
+        "container": "redis",
+        "cpu_percent": 0.8408888888888889,
+        "memory_usage": 3444736,
+        "memory_usage_percent": 0.04135791662322692
+    },
+    {
+        "timestamp": "2026-08-08T14:09:40.530477",
+        "container": "api-gateway",
+        "cpu_percent": 1.017920792079208,
+        "memory_usage": 259629056,
+        "memory_usage_percent": 3.117137815790561
+    },
+    {
+        "timestamp": "2026-08-08T14:09:40.532102",
+        "container": "auth-service",
+        "cpu_percent": 154.73078880407124,
+        "memory_usage": 229224448,
+        "memory_usage_percent": 2.7520964185322807
+    },
+    {
+        "timestamp": "2026-08-08T14:09:40.532678",
+        "container": "order-service",
+        "cpu_percent": 93.4890909090909,
+        "memory_usage": 260145152,
+        "memory_usage_percent": 3.1233341267234103
+    },
+    {
+        "timestamp": "2026-08-08T14:09:40.533820",
+        "container": "payment-service",
+        "cpu_percent": 0.28972431077694233,
+        "memory_usage": 297684992,
+        "memory_usage_percent": 3.574041981481882
+    },
+    {
+        "timestamp": "2026-08-08T14:09:40.579547",
+        "container": "rabbitmq",
+        "cpu_percent": 0.3156834532374101,
+        "memory_usage": 149540864,
+        "memory_usage_percent": 1.7954056813286465
+    },
+    {
+        "timestamp": "2026-08-08T14:09:40.579547",
+        "container": "redis",
+        "cpu_percent": 0.8408888888888889,
+        "memory_usage": 3444736,
+        "memory_usage_percent": 0.04135791662322692
+    },
+    {
+        "timestamp": "2026-08-08T14:09:45.659104",
+        "container": "auth-service",
+        "cpu_percent": 72.76049751243782,
+        "memory_usage": 297013248,
+        "memory_usage_percent": 3.565976941854999
+    },
+    {
+        "timestamp": "2026-08-08T14:09:45.726423",
+        "container": "order-service",
+        "cpu_percent": 0.2230612244897959,
+        "memory_usage": 289665024,
+        "memory_usage_percent": 3.4777532766682335
+    },
+    {
+        "timestamp": "2026-08-08T14:09:50.820179",
+        "container": "api-gateway",
+        "cpu_percent": 0.2581360201511335,
+        "memory_usage": 273182720,
+        "memory_usage_percent": 3.2798647433842087
+    },
+    {
+        "timestamp": "2026-08-08T14:09:50.821192",
+        "container": "auth-service",
+        "cpu_percent": 72.76049751243782,
+        "memory_usage": 297013248,
+        "memory_usage_percent": 3.565976941854999
+    },
+    {
+        "timestamp": "2026-08-08T14:09:50.822187",
+        "container": "order-service",
+        "cpu_percent": 0.2230612244897959,
+        "memory_usage": 289665024,
+        "memory_usage_percent": 3.4777532766682335
+    },
+    {
+        "timestamp": "2026-08-08T14:09:50.881908",
+        "container": "payment-service",
+        "cpu_percent": 0.22588235294117645,
+        "memory_usage": 309239808,
+        "memory_usage_percent": 3.712770498478461
+    },
+    {
+        "timestamp": "2026-08-08T14:09:50.905146",
+        "container": "postgres-db",
+        "cpu_percent": 1.4299497487437185,
+        "memory_usage": 169234432,
+        "memory_usage_percent": 2.0318490381948475
+    },
+    {
+        "timestamp": "2026-08-08T14:09:55.948964",
+        "container": "api-gateway",
+        "cpu_percent": 0.2581360201511335,
+        "memory_usage": 273182720,
+        "memory_usage_percent": 3.2798647433842087
+    },
+    {
+        "timestamp": "2026-08-08T14:09:55.949969",
+        "container": "auth-service",
+        "cpu_percent": 72.76049751243782,
+        "memory_usage": 297013248,
+        "memory_usage_percent": 3.565976941854999
+    },
+    {
+        "timestamp": "2026-08-08T14:09:55.950972",
+        "container": "order-service",
+        "cpu_percent": 0.2230612244897959,
+        "memory_usage": 289665024,
+        "memory_usage_percent": 3.4777532766682335
+    },
+    {
+        "timestamp": "2026-08-08T14:09:55.950972",
+        "container": "payment-service",
+        "cpu_percent": 0.22588235294117645,
+        "memory_usage": 309239808,
+        "memory_usage_percent": 3.712770498478461
+    },
+    {
+        "timestamp": "2026-08-08T14:09:55.951966",
+        "container": "postgres-db",
+        "cpu_percent": 1.4299497487437185,
+        "memory_usage": 169234432,
+        "memory_usage_percent": 2.0318490381948475
+    },
+    {
+        "timestamp": "2026-08-08T14:09:55.982400",
+        "container": "rabbitmq",
+        "cpu_percent": 12.21398533007335,
+        "memory_usage": 143183872,
+        "memory_usage_percent": 1.719082867298625
+    },
+    {
+        "timestamp": "2026-08-08T14:09:56.007503",
+        "container": "redis",
+        "cpu_percent": 0.5838560411311055,
+        "memory_usage": 3444736,
+        "memory_usage_percent": 0.04135791662322692
+    },
+    {
+        "timestamp": "2026-08-08T14:10:01.079105",
+        "container": "order-service",
+        "cpu_percent": 0.2,
+        "memory_usage": 289927168,
+        "memory_usage_percent": 3.480900609205554
+    },
+    {
+        "timestamp": "2026-08-08T14:10:06.154655",
+        "container": "auth-service",
+        "cpu_percent": 0.44526582278481014,
+        "memory_usage": 313798656,
+        "memory_usage_percent": 3.7675045783853003
+    },
+    {
+        "timestamp": "2026-08-08T14:10:06.155816",
+        "container": "order-service",
+        "cpu_percent": 0.2,
+        "memory_usage": 289927168,
+        "memory_usage_percent": 3.480900609205554
+    },
+    {
+        "timestamp": "2026-08-08T14:10:06.216734",
+        "container": "payment-service",
+        "cpu_percent": 0.23376146788990823,
+        "memory_usage": 309641216,
+        "memory_usage_percent": 3.7175898514262333
+    },
+    {
+        "timestamp": "2026-08-08T14:10:11.336548",
+        "container": "api-gateway",
+        "cpu_percent": 0.5186407766990291,
+        "memory_usage": 281964544,
+        "memory_usage_percent": 3.3853003833844446
+    },
+    {
+        "timestamp": "2026-08-08T14:10:11.337549",
+        "container": "auth-service",
+        "cpu_percent": 0.44526582278481014,
+        "memory_usage": 313798656,
+        "memory_usage_percent": 3.7675045783853003
+    },
+    {
+        "timestamp": "2026-08-08T14:10:11.338543",
+        "container": "order-service",
+        "cpu_percent": 0.2,
+        "memory_usage": 289927168,
+        "memory_usage_percent": 3.480900609205554
+    },
+    {
+        "timestamp": "2026-08-08T14:10:11.339054",
+        "container": "payment-service",
+        "cpu_percent": 0.23376146788990823,
+        "memory_usage": 309641216,
+        "memory_usage_percent": 3.7175898514262333
+    },
+    {
+        "timestamp": "2026-08-08T14:10:11.366683",
+        "container": "postgres-db",
+        "cpu_percent": 0.04050251256281407,
+        "memory_usage": 169259008,
+        "memory_usage_percent": 2.032144100620221
+    },
+    {
+        "timestamp": "2026-08-08T14:10:11.390561",
+        "container": "redis",
+        "cpu_percent": 0.6068341708542714,
+        "memory_usage": 3473408,
+        "memory_usage_percent": 0.04170215611949635
+    },
+    {
+        "timestamp": "2026-08-08T14:10:16.442178",
+        "container": "api-gateway",
+        "cpu_percent": 0.5186407766990291,
+        "memory_usage": 281964544,
+        "memory_usage_percent": 3.3853003833844446
+    },
+    {
+        "timestamp": "2026-08-08T14:10:16.443718",
+        "container": "auth-service",
+        "cpu_percent": 0.44526582278481014,
+        "memory_usage": 313798656,
+        "memory_usage_percent": 3.7675045783853003
+    },
+    {
+        "timestamp": "2026-08-08T14:10:16.444732",
+        "container": "order-service",
+        "cpu_percent": 0.2,
+        "memory_usage": 289927168,
+        "memory_usage_percent": 3.480900609205554
+    },
+    {
+        "timestamp": "2026-08-08T14:10:16.445734",
+        "container": "payment-service",
+        "cpu_percent": 0.23376146788990823,
+        "memory_usage": 309641216,
+        "memory_usage_percent": 3.7175898514262333
+    },
+    {
+        "timestamp": "2026-08-08T14:10:16.446733",
+        "container": "postgres-db",
+        "cpu_percent": 0.04050251256281407,
+        "memory_usage": 169259008,
+        "memory_usage_percent": 2.032144100620221
+    },
+    {
+        "timestamp": "2026-08-08T14:10:16.468466",
+        "container": "rabbitmq",
+        "cpu_percent": 0.6564705882352941,
+        "memory_usage": 143187968,
+        "memory_usage_percent": 1.7191320443695206
+    },
+    {
+        "timestamp": "2026-08-08T14:10:16.468466",
+        "container": "redis",
+        "cpu_percent": 0.6068341708542714,
+        "memory_usage": 3473408,
+        "memory_usage_percent": 0.04170215611949635
+    },
+    {
+        "timestamp": "2026-08-08T14:10:21.513577",
+        "container": "auth-service",
+        "cpu_percent": 0.6916,
+        "memory_usage": 313987072,
+        "memory_usage_percent": 3.7697667236465
+    },
+    {
+        "timestamp": "2026-08-08T14:10:21.561211",
+        "container": "order-service",
+        "cpu_percent": 0.39348370927318294,
+        "memory_usage": 290250752,
+        "memory_usage_percent": 3.4847855978063094
+    },
+    {
+        "timestamp": "2026-08-08T14:10:26.672541",
+        "container": "api-gateway",
+        "cpu_percent": 0.2627602905569007,
+        "memory_usage": 286539776,
+        "memory_usage_percent": 3.440231171574866
+    },
+    {
+        "timestamp": "2026-08-08T14:10:26.672541",
+        "container": "auth-service",
+        "cpu_percent": 0.6916,
+        "memory_usage": 313987072,
+        "memory_usage_percent": 3.7697667236465
+    },
+    {
+        "timestamp": "2026-08-08T14:10:26.673598",
+        "container": "order-service",
+        "cpu_percent": 0.39348370927318294,
+        "memory_usage": 290250752,
+        "memory_usage_percent": 3.4847855978063094
+    },
+    {
+        "timestamp": "2026-08-08T14:10:26.716883",
+        "container": "payment-service",
+        "cpu_percent": 0.22442748091603051,
+        "memory_usage": 310181888,
+        "memory_usage_percent": 3.724081224784457
+    },
+    {
+        "timestamp": "2026-08-08T14:10:31.750743",
+        "container": "api-gateway",
+        "cpu_percent": 0.2627602905569007,
+        "memory_usage": 286539776,
+        "memory_usage_percent": 3.440231171574866
+    },
+    {
+        "timestamp": "2026-08-08T14:10:31.750743",
+        "container": "auth-service",
+        "cpu_percent": 0.6916,
+        "memory_usage": 313987072,
+        "memory_usage_percent": 3.7697667236465
+    },
+    {
+        "timestamp": "2026-08-08T14:10:31.751738",
+        "container": "order-service",
+        "cpu_percent": 0.39348370927318294,
+        "memory_usage": 290250752,
+        "memory_usage_percent": 3.4847855978063094
+    },
+    {
+        "timestamp": "2026-08-08T14:10:31.752741",
+        "container": "payment-service",
+        "cpu_percent": 0.22442748091603051,
+        "memory_usage": 310181888,
+        "memory_usage_percent": 3.724081224784457
+    },
+    {
+        "timestamp": "2026-08-08T14:10:31.778151",
+        "container": "postgres-db",
+        "cpu_percent": 0.029273182957393486,
+        "memory_usage": 169308160,
+        "memory_usage_percent": 2.032734225470969
+    },
+    {
+        "timestamp": "2026-08-08T14:10:31.803423",
+        "container": "rabbitmq",
+        "cpu_percent": 0.37353383458646616,
+        "memory_usage": 143286272,
+        "memory_usage_percent": 1.7203122940710156
+    },
+    {
+        "timestamp": "2026-08-08T14:10:31.827048",
+        "container": "redis",
+        "cpu_percent": 0.6214463840399003,
+        "memory_usage": 3477504,
+        "memory_usage_percent": 0.04175133319039198
+    },
+    {
+        "timestamp": "2026-08-08T14:10:41.917962",
+        "container": "order-service",
+        "cpu_percent": 11.13632241813602,
+        "memory_usage": 290533376,
+        "memory_usage_percent": 3.4881788156981077
+    },
+    {
+        "timestamp": "2026-08-08T14:10:46.974647",
+        "container": "auth-service",
+        "cpu_percent": 0.3427272727272727,
+        "memory_usage": 314257408,
+        "memory_usage_percent": 3.773012410325611
+    },
+    {
+        "timestamp": "2026-08-08T14:10:46.975646",
+        "container": "order-service",
+        "cpu_percent": 11.13632241813602,
+        "memory_usage": 290533376,
+        "memory_usage_percent": 3.4881788156981077
+    },
+    {
+        "timestamp": "2026-08-08T14:10:47.024828",
+        "container": "payment-service",
+        "cpu_percent": 0.25577464788732396,
+        "memory_usage": 308756480,
+        "memory_usage_percent": 3.7069676041127773
+    },
+    {
+        "timestamp": "2026-08-08T14:10:52.080117",
+        "container": "api-gateway",
+        "cpu_percent": 1.5714143920595534,
+        "memory_usage": 287158272,
+        "memory_usage_percent": 3.4476569092801066
+    },
+    {
+        "timestamp": "2026-08-08T14:10:52.080117",
+        "container": "auth-service",
+        "cpu_percent": 0.3427272727272727,
+        "memory_usage": 314257408,
+        "memory_usage_percent": 3.773012410325611
+    },
+    {
+        "timestamp": "2026-08-08T14:10:52.080117",
+        "container": "order-service",
+        "cpu_percent": 11.13632241813602,
+        "memory_usage": 290533376,
+        "memory_usage_percent": 3.4881788156981077
+    },
+    {
+        "timestamp": "2026-08-08T14:10:52.081132",
+        "container": "payment-service",
+        "cpu_percent": 0.25577464788732396,
+        "memory_usage": 308756480,
+        "memory_usage_percent": 3.7069676041127773
+    },
+    {
+        "timestamp": "2026-08-08T14:10:52.101401",
+        "container": "postgres-db",
+        "cpu_percent": 0.0317,
+        "memory_usage": 169312256,
+        "memory_usage_percent": 2.0327834025418645
+    },
+    {
+        "timestamp": "2026-08-08T14:10:52.124551",
+        "container": "redis",
+        "cpu_percent": 0.6663054187192119,
+        "memory_usage": 3739648,
+        "memory_usage_percent": 0.044898665727712464
+    },
+    {
+        "timestamp": "2026-08-08T14:11:02.256866",
+        "container": "order-service",
+        "cpu_percent": 0.265,
+        "memory_usage": 290676736,
+        "memory_usage_percent": 3.489900013179455
+    },
+    {
+        "timestamp": "2026-08-08T14:11:07.365342",
+        "container": "api-gateway",
+        "cpu_percent": 0.2602341920374707,
+        "memory_usage": 287473664,
+        "memory_usage_percent": 3.4514435437390705
+    },
+    {
+        "timestamp": "2026-08-08T14:11:07.393075",
+        "container": "auth-service",
+        "cpu_percent": 0.28464891041162227,
+        "memory_usage": 314560512,
+        "memory_usage_percent": 3.7766515135718883
+    },
+    {
+        "timestamp": "2026-08-08T14:11:07.395598",
+        "container": "order-service",
+        "cpu_percent": 0.265,
+        "memory_usage": 290676736,
+        "memory_usage_percent": 3.489900013179455
+    },
+    {
+        "timestamp": "2026-08-08T14:11:07.450380",
+        "container": "payment-service",
+        "cpu_percent": 0.1996938775510204,
+        "memory_usage": 308916224,
+        "memory_usage_percent": 3.7088855098777067
+    },
+    {
+        "timestamp": "2026-08-08T14:11:12.481085",
+        "container": "api-gateway",
+        "cpu_percent": 0.2602341920374707,
+        "memory_usage": 287473664,
+        "memory_usage_percent": 3.4514435437390705
+    },
+    {
+        "timestamp": "2026-08-08T14:11:12.481085",
+        "container": "auth-service",
+        "cpu_percent": 0.28464891041162227,
+        "memory_usage": 314560512,
+        "memory_usage_percent": 3.7766515135718883
+    },
+    {
+        "timestamp": "2026-08-08T14:11:12.482082",
+        "container": "order-service",
+        "cpu_percent": 0.265,
+        "memory_usage": 290676736,
+        "memory_usage_percent": 3.489900013179455
+    },
+    {
+        "timestamp": "2026-08-08T14:11:12.483080",
+        "container": "payment-service",
+        "cpu_percent": 0.1996938775510204,
+        "memory_usage": 308916224,
+        "memory_usage_percent": 3.7088855098777067
+    },
+    {
+        "timestamp": "2026-08-08T14:11:12.508798",
+        "container": "postgres-db",
+        "cpu_percent": 0.004179104477611941,
+        "memory_usage": 169308160,
+        "memory_usage_percent": 2.032734225470969
+    },
+    {
+        "timestamp": "2026-08-08T14:11:12.531824",
         "container": "redis",
         "cpu_percent": 0.0,
-        "memory_usage": 12857344
+        "memory_usage": 3481600,
+        "memory_usage_percent": 0.041800510261287616
     },
     {
-        "timestamp": "2026-08-08T13:31:53.938711",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313212928
-    },
-    {
-        "timestamp": "2026-08-08T13:31:54.048764",
+        "timestamp": "2026-08-08T14:11:17.612076",
         "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309121024
+        "cpu_percent": 0.42034739454094294,
+        "memory_usage": 290824192,
+        "memory_usage_percent": 3.4916703877316975
     },
     {
-        "timestamp": "2026-08-08T13:31:54.107517",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297349120
-    },
-    {
-        "timestamp": "2026-08-08T13:31:59.357286",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313212928
-    },
-    {
-        "timestamp": "2026-08-08T13:31:59.374846",
+        "timestamp": "2026-08-08T14:11:22.660830",
         "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 369831936
+        "cpu_percent": 0.4255,
+        "memory_usage": 315072512,
+        "memory_usage_percent": 3.782798647433842
     },
     {
-        "timestamp": "2026-08-08T13:31:59.375814",
+        "timestamp": "2026-08-08T14:11:22.687526",
         "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309121024
+        "cpu_percent": 0.23791044776119405,
+        "memory_usage": 290885632,
+        "memory_usage_percent": 3.4924080437951326
     },
     {
-        "timestamp": "2026-08-08T13:31:59.376814",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297349120
-    },
-    {
-        "timestamp": "2026-08-08T13:31:59.401386",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147693568
-    },
-    {
-        "timestamp": "2026-08-08T13:32:04.612130",
+        "timestamp": "2026-08-08T14:11:27.817457",
         "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313212928
+        "cpu_percent": 0.16148491879350346,
+        "memory_usage": 287817728,
+        "memory_usage_percent": 3.4555744176943035
     },
     {
-        "timestamp": "2026-08-08T13:32:04.612701",
+        "timestamp": "2026-08-08T14:11:27.818458",
         "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 369831936
+        "cpu_percent": 0.4255,
+        "memory_usage": 315072512,
+        "memory_usage_percent": 3.782798647433842
     },
     {
-        "timestamp": "2026-08-08T13:32:04.613818",
+        "timestamp": "2026-08-08T14:11:27.820272",
         "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309121024
+        "cpu_percent": 0.23791044776119405,
+        "memory_usage": 290885632,
+        "memory_usage_percent": 3.4924080437951326
     },
     {
-        "timestamp": "2026-08-08T13:32:04.614949",
+        "timestamp": "2026-08-08T14:11:27.888152",
         "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297349120
+        "cpu_percent": 2.693,
+        "memory_usage": 309055488,
+        "memory_usage_percent": 3.7105575302881584
     },
     {
-        "timestamp": "2026-08-08T13:32:04.641378",
+        "timestamp": "2026-08-08T14:11:27.920562",
         "container": "postgres-db",
         "cpu_percent": 0.0,
-        "memory_usage": 73936896
+        "memory_usage": 169312256,
+        "memory_usage_percent": 2.0327834025418645
     },
     {
-        "timestamp": "2026-08-08T13:32:04.641378",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147693568
-    },
-    {
-        "timestamp": "2026-08-08T13:32:04.666042",
-        "container": "redis",
-        "cpu_percent": 0.0,
-        "memory_usage": 13152256
-    },
-    {
-        "timestamp": "2026-08-08T13:32:09.966724",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309121024
-    },
-    {
-        "timestamp": "2026-08-08T13:32:15.281700",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313217024
-    },
-    {
-        "timestamp": "2026-08-08T13:32:15.301849",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 369827840
-    },
-    {
-        "timestamp": "2026-08-08T13:32:15.302846",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309121024
-    },
-    {
-        "timestamp": "2026-08-08T13:32:15.362814",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297349120
-    },
-    {
-        "timestamp": "2026-08-08T13:32:20.624239",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313217024
-    },
-    {
-        "timestamp": "2026-08-08T13:32:20.624811",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 369827840
-    },
-    {
-        "timestamp": "2026-08-08T13:32:20.625941",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309121024
-    },
-    {
-        "timestamp": "2026-08-08T13:32:20.626513",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297349120
-    },
-    {
-        "timestamp": "2026-08-08T13:32:20.648925",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73945088
-    },
-    {
-        "timestamp": "2026-08-08T13:32:20.669731",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 172417024
-    },
-    {
-        "timestamp": "2026-08-08T13:32:20.688111",
-        "container": "redis",
-        "cpu_percent": 0.0,
-        "memory_usage": 12857344
-    },
-    {
-        "timestamp": "2026-08-08T13:32:31.133559",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313606144
-    },
-    {
-        "timestamp": "2026-08-08T13:32:31.180148",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309211136
-    },
-    {
-        "timestamp": "2026-08-08T13:32:31.225753",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297447424
-    },
-    {
-        "timestamp": "2026-08-08T13:32:36.382965",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313606144
-    },
-    {
-        "timestamp": "2026-08-08T13:32:36.423342",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 369946624
-    },
-    {
-        "timestamp": "2026-08-08T13:32:36.425431",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309211136
-    },
-    {
-        "timestamp": "2026-08-08T13:32:36.426575",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297447424
-    },
-    {
-        "timestamp": "2026-08-08T13:32:36.454403",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147431424
-    },
-    {
-        "timestamp": "2026-08-08T13:32:41.676166",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313606144
-    },
-    {
-        "timestamp": "2026-08-08T13:32:41.677241",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 369946624
-    },
-    {
-        "timestamp": "2026-08-08T13:32:41.677814",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309211136
-    },
-    {
-        "timestamp": "2026-08-08T13:32:41.678929",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297447424
-    },
-    {
-        "timestamp": "2026-08-08T13:32:41.678929",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147431424
-    },
-    {
-        "timestamp": "2026-08-08T13:32:41.696732",
-        "container": "redis",
-        "cpu_percent": 0.0,
-        "memory_usage": 12857344
-    },
-    {
-        "timestamp": "2026-08-08T13:32:46.941785",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309342208
-    },
-    {
-        "timestamp": "2026-08-08T13:32:47.014471",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297586688
-    },
-    {
-        "timestamp": "2026-08-08T13:32:52.321809",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313217024
-    },
-    {
-        "timestamp": "2026-08-08T13:32:52.381221",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 369852416
-    },
-    {
-        "timestamp": "2026-08-08T13:32:52.382952",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309342208
-    },
-    {
-        "timestamp": "2026-08-08T13:32:52.384098",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297586688
-    },
-    {
-        "timestamp": "2026-08-08T13:32:52.408467",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147435520
-    },
-    {
-        "timestamp": "2026-08-08T13:32:57.599058",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313217024
-    },
-    {
-        "timestamp": "2026-08-08T13:32:57.600060",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 369852416
-    },
-    {
-        "timestamp": "2026-08-08T13:32:57.601065",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309342208
-    },
-    {
-        "timestamp": "2026-08-08T13:32:57.602066",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297586688
-    },
-    {
-        "timestamp": "2026-08-08T13:32:57.602066",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147435520
-    },
-    {
-        "timestamp": "2026-08-08T13:32:57.621209",
-        "container": "redis",
-        "cpu_percent": 0.0,
-        "memory_usage": 12857344
-    },
-    {
-        "timestamp": "2026-08-08T13:33:02.831400",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309149696
-    },
-    {
-        "timestamp": "2026-08-08T13:33:08.096184",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313339904
-    },
-    {
-        "timestamp": "2026-08-08T13:33:08.118334",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 369860608
-    },
-    {
-        "timestamp": "2026-08-08T13:33:08.119335",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309149696
-    },
-    {
-        "timestamp": "2026-08-08T13:33:08.189182",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297394176
-    },
-    {
-        "timestamp": "2026-08-08T13:33:13.396070",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313339904
-    },
-    {
-        "timestamp": "2026-08-08T13:33:13.396637",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 369860608
-    },
-    {
-        "timestamp": "2026-08-08T13:33:13.397848",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309149696
-    },
-    {
-        "timestamp": "2026-08-08T13:33:13.398987",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297394176
-    },
-    {
-        "timestamp": "2026-08-08T13:33:13.419809",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73875456
-    },
-    {
-        "timestamp": "2026-08-08T13:33:13.444061",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147431424
-    },
-    {
-        "timestamp": "2026-08-08T13:33:13.466376",
-        "container": "redis",
-        "cpu_percent": 0.0,
-        "memory_usage": 12857344
-    },
-    {
-        "timestamp": "2026-08-08T13:33:23.935422",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313348096
-    },
-    {
-        "timestamp": "2026-08-08T13:33:23.999780",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309153792
-    },
-    {
-        "timestamp": "2026-08-08T13:33:24.053093",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297394176
-    },
-    {
-        "timestamp": "2026-08-08T13:33:29.215752",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313348096
-    },
-    {
-        "timestamp": "2026-08-08T13:33:29.249140",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 369860608
-    },
-    {
-        "timestamp": "2026-08-08T13:33:29.250141",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309153792
-    },
-    {
-        "timestamp": "2026-08-08T13:33:29.251134",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297394176
-    },
-    {
-        "timestamp": "2026-08-08T13:33:29.267232",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147750912
-    },
-    {
-        "timestamp": "2026-08-08T13:33:34.426648",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313348096
-    },
-    {
-        "timestamp": "2026-08-08T13:33:34.427218",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 369860608
-    },
-    {
-        "timestamp": "2026-08-08T13:33:34.427775",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309153792
-    },
-    {
-        "timestamp": "2026-08-08T13:33:34.428893",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297394176
-    },
-    {
-        "timestamp": "2026-08-08T13:33:34.451914",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73940992
-    },
-    {
-        "timestamp": "2026-08-08T13:33:34.451914",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147750912
-    },
-    {
-        "timestamp": "2026-08-08T13:33:34.478747",
-        "container": "redis",
-        "cpu_percent": 0.0,
-        "memory_usage": 12861440
-    },
-    {
-        "timestamp": "2026-08-08T13:33:39.682683",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309157888
-    },
-    {
-        "timestamp": "2026-08-08T13:33:44.906895",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313229312
-    },
-    {
-        "timestamp": "2026-08-08T13:33:44.934621",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370102272
-    },
-    {
-        "timestamp": "2026-08-08T13:33:44.936622",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309157888
-    },
-    {
-        "timestamp": "2026-08-08T13:33:44.991484",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297398272
-    },
-    {
-        "timestamp": "2026-08-08T13:33:50.151032",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313229312
-    },
-    {
-        "timestamp": "2026-08-08T13:33:50.151588",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370102272
-    },
-    {
-        "timestamp": "2026-08-08T13:33:50.152703",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309157888
-    },
-    {
-        "timestamp": "2026-08-08T13:33:50.153816",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297398272
-    },
-    {
-        "timestamp": "2026-08-08T13:33:50.176240",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73936896
-    },
-    {
-        "timestamp": "2026-08-08T13:33:50.195374",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147435520
-    },
-    {
-        "timestamp": "2026-08-08T13:33:55.410438",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309161984
-    },
-    {
-        "timestamp": "2026-08-08T13:34:00.659655",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313245696
-    },
-    {
-        "timestamp": "2026-08-08T13:34:00.660655",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309161984
-    },
-    {
-        "timestamp": "2026-08-08T13:34:00.711675",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297476096
-    },
-    {
-        "timestamp": "2026-08-08T13:34:05.866167",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313245696
-    },
-    {
-        "timestamp": "2026-08-08T13:34:05.915006",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 369893376
-    },
-    {
-        "timestamp": "2026-08-08T13:34:05.916006",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309161984
-    },
-    {
-        "timestamp": "2026-08-08T13:34:05.917005",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297476096
-    },
-    {
-        "timestamp": "2026-08-08T13:34:05.941193",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73940992
-    },
-    {
-        "timestamp": "2026-08-08T13:34:05.957724",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147443712
-    },
-    {
-        "timestamp": "2026-08-08T13:34:11.120175",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313245696
-    },
-    {
-        "timestamp": "2026-08-08T13:34:11.121313",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 369893376
-    },
-    {
-        "timestamp": "2026-08-08T13:34:11.122387",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309161984
-    },
-    {
-        "timestamp": "2026-08-08T13:34:11.123502",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297476096
-    },
-    {
-        "timestamp": "2026-08-08T13:34:11.123502",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73940992
-    },
-    {
-        "timestamp": "2026-08-08T13:34:11.124029",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147443712
-    },
-    {
-        "timestamp": "2026-08-08T13:34:11.147981",
-        "container": "redis",
-        "cpu_percent": 0.0,
-        "memory_usage": 13119488
-    },
-    {
-        "timestamp": "2026-08-08T13:34:16.349721",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309219328
-    },
-    {
-        "timestamp": "2026-08-08T13:34:16.395841",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297467904
-    },
-    {
-        "timestamp": "2026-08-08T13:34:21.630674",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313249792
-    },
-    {
-        "timestamp": "2026-08-08T13:34:21.654133",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 369901568
-    },
-    {
-        "timestamp": "2026-08-08T13:34:21.655132",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309219328
-    },
-    {
-        "timestamp": "2026-08-08T13:34:21.656133",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297467904
-    },
-    {
-        "timestamp": "2026-08-08T13:34:21.674662",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 202231808
-    },
-    {
-        "timestamp": "2026-08-08T13:34:26.837034",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313249792
-    },
-    {
-        "timestamp": "2026-08-08T13:34:26.837034",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 369901568
-    },
-    {
-        "timestamp": "2026-08-08T13:34:26.838151",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309219328
-    },
-    {
-        "timestamp": "2026-08-08T13:34:26.838721",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297467904
-    },
-    {
-        "timestamp": "2026-08-08T13:34:26.854169",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73940992
-    },
-    {
-        "timestamp": "2026-08-08T13:34:26.854169",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 202231808
-    },
-    {
-        "timestamp": "2026-08-08T13:34:26.879335",
-        "container": "redis",
-        "cpu_percent": 0.0,
-        "memory_usage": 12857344
-    },
-    {
-        "timestamp": "2026-08-08T13:34:32.084441",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309223424
-    },
-    {
-        "timestamp": "2026-08-08T13:34:37.389968",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313245696
-    },
-    {
-        "timestamp": "2026-08-08T13:34:37.415410",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309223424
-    },
-    {
-        "timestamp": "2026-08-08T13:34:37.476191",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297476096
-    },
-    {
-        "timestamp": "2026-08-08T13:34:42.632586",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313245696
-    },
-    {
-        "timestamp": "2026-08-08T13:34:42.652823",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 369913856
-    },
-    {
-        "timestamp": "2026-08-08T13:34:42.653819",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309223424
-    },
-    {
-        "timestamp": "2026-08-08T13:34:42.654823",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297476096
-    },
-    {
-        "timestamp": "2026-08-08T13:34:42.678764",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73936896
-    },
-    {
-        "timestamp": "2026-08-08T13:34:42.705324",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147443712
-    },
-    {
-        "timestamp": "2026-08-08T13:34:47.900137",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313245696
-    },
-    {
-        "timestamp": "2026-08-08T13:34:47.900673",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 369913856
-    },
-    {
-        "timestamp": "2026-08-08T13:34:47.901250",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309223424
-    },
-    {
-        "timestamp": "2026-08-08T13:34:47.901789",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297476096
-    },
-    {
-        "timestamp": "2026-08-08T13:34:47.902313",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73936896
-    },
-    {
-        "timestamp": "2026-08-08T13:34:47.902866",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147443712
-    },
-    {
-        "timestamp": "2026-08-08T13:34:47.932262",
-        "container": "redis",
-        "cpu_percent": 0.0,
-        "memory_usage": 12857344
-    },
-    {
-        "timestamp": "2026-08-08T13:34:53.171037",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309227520
-    },
-    {
-        "timestamp": "2026-08-08T13:34:53.196454",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297488384
-    },
-    {
-        "timestamp": "2026-08-08T13:34:58.478789",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313270272
-    },
-    {
-        "timestamp": "2026-08-08T13:34:58.503835",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 369958912
-    },
-    {
-        "timestamp": "2026-08-08T13:34:58.504834",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309227520
-    },
-    {
-        "timestamp": "2026-08-08T13:34:58.544200",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297488384
-    },
-    {
-        "timestamp": "2026-08-08T13:35:03.789102",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313270272
-    },
-    {
-        "timestamp": "2026-08-08T13:35:03.789670",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 369958912
-    },
-    {
-        "timestamp": "2026-08-08T13:35:03.790231",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309227520
-    },
-    {
-        "timestamp": "2026-08-08T13:35:03.790231",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297488384
-    },
-    {
-        "timestamp": "2026-08-08T13:35:03.813572",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73940992
-    },
-    {
-        "timestamp": "2026-08-08T13:35:03.833223",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147447808
-    },
-    {
-        "timestamp": "2026-08-08T13:35:03.853377",
-        "container": "redis",
-        "cpu_percent": 0.0,
-        "memory_usage": 12857344
-    },
-    {
-        "timestamp": "2026-08-08T13:35:14.332033",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313384960
-    },
-    {
-        "timestamp": "2026-08-08T13:35:14.376826",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309227520
-    },
-    {
-        "timestamp": "2026-08-08T13:35:14.423496",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297480192
-    },
-    {
-        "timestamp": "2026-08-08T13:35:19.577118",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313384960
-    },
-    {
-        "timestamp": "2026-08-08T13:35:19.599893",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370098176
-    },
-    {
-        "timestamp": "2026-08-08T13:35:19.600899",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309227520
-    },
-    {
-        "timestamp": "2026-08-08T13:35:19.601894",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297480192
-    },
-    {
-        "timestamp": "2026-08-08T13:35:19.622627",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 192274432
-    },
-    {
-        "timestamp": "2026-08-08T13:35:24.793419",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313384960
-    },
-    {
-        "timestamp": "2026-08-08T13:35:24.793954",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370098176
-    },
-    {
-        "timestamp": "2026-08-08T13:35:24.794499",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309227520
-    },
-    {
-        "timestamp": "2026-08-08T13:35:24.795556",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297480192
-    },
-    {
-        "timestamp": "2026-08-08T13:35:24.795556",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 192274432
-    },
-    {
-        "timestamp": "2026-08-08T13:35:24.816542",
-        "container": "redis",
-        "cpu_percent": 0.0,
-        "memory_usage": 13119488
-    },
-    {
-        "timestamp": "2026-08-08T13:35:30.071084",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309321728
-    },
-    {
-        "timestamp": "2026-08-08T13:35:30.130920",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297582592
-    },
-    {
-        "timestamp": "2026-08-08T13:35:35.349865",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313409536
-    },
-    {
-        "timestamp": "2026-08-08T13:35:35.389910",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370208768
-    },
-    {
-        "timestamp": "2026-08-08T13:35:35.391441",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309321728
-    },
-    {
-        "timestamp": "2026-08-08T13:35:35.392445",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297582592
-    },
-    {
-        "timestamp": "2026-08-08T13:35:35.411069",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147451904
-    },
-    {
-        "timestamp": "2026-08-08T13:35:40.571186",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313409536
-    },
-    {
-        "timestamp": "2026-08-08T13:35:40.572423",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370208768
-    },
-    {
-        "timestamp": "2026-08-08T13:35:40.572997",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309321728
-    },
-    {
-        "timestamp": "2026-08-08T13:35:40.574095",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297582592
-    },
-    {
-        "timestamp": "2026-08-08T13:35:40.574653",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147451904
-    },
-    {
-        "timestamp": "2026-08-08T13:35:40.598304",
-        "container": "redis",
-        "cpu_percent": 0.0,
-        "memory_usage": 13119488
-    },
-    {
-        "timestamp": "2026-08-08T13:35:45.806613",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309243904
-    },
-    {
-        "timestamp": "2026-08-08T13:35:45.829877",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297508864
-    },
-    {
-        "timestamp": "2026-08-08T13:35:51.070683",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313446400
-    },
-    {
-        "timestamp": "2026-08-08T13:35:51.125897",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 369967104
-    },
-    {
-        "timestamp": "2026-08-08T13:35:51.126905",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309243904
-    },
-    {
-        "timestamp": "2026-08-08T13:35:51.158584",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297508864
-    },
-    {
-        "timestamp": "2026-08-08T13:35:56.333877",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313446400
-    },
-    {
-        "timestamp": "2026-08-08T13:35:56.334873",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 369967104
-    },
-    {
-        "timestamp": "2026-08-08T13:35:56.334873",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309243904
-    },
-    {
-        "timestamp": "2026-08-08T13:35:56.336384",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297508864
-    },
-    {
-        "timestamp": "2026-08-08T13:35:56.353633",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73863168
-    },
-    {
-        "timestamp": "2026-08-08T13:35:56.375974",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 172982272
-    },
-    {
-        "timestamp": "2026-08-08T13:35:56.394501",
-        "container": "redis",
-        "cpu_percent": 0.0,
-        "memory_usage": 12857344
-    },
-    {
-        "timestamp": "2026-08-08T13:36:06.892898",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313331712
-    },
-    {
-        "timestamp": "2026-08-08T13:36:06.943435",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309243904
-    },
-    {
-        "timestamp": "2026-08-08T13:36:06.997892",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297508864
-    },
-    {
-        "timestamp": "2026-08-08T13:36:12.226097",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313331712
-    },
-    {
-        "timestamp": "2026-08-08T13:36:12.249835",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 369975296
-    },
-    {
-        "timestamp": "2026-08-08T13:36:12.250837",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309243904
-    },
-    {
-        "timestamp": "2026-08-08T13:36:12.251835",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297508864
-    },
-    {
-        "timestamp": "2026-08-08T13:36:12.276561",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147456000
-    },
-    {
-        "timestamp": "2026-08-08T13:36:17.543236",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313331712
-    },
-    {
-        "timestamp": "2026-08-08T13:36:17.543236",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 369975296
-    },
-    {
-        "timestamp": "2026-08-08T13:36:17.544374",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309243904
-    },
-    {
-        "timestamp": "2026-08-08T13:36:17.545516",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297508864
-    },
-    {
-        "timestamp": "2026-08-08T13:36:17.571016",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73912320
-    },
-    {
-        "timestamp": "2026-08-08T13:36:17.571016",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147456000
-    },
-    {
-        "timestamp": "2026-08-08T13:36:17.597921",
-        "container": "redis",
-        "cpu_percent": 0.0,
-        "memory_usage": 12857344
-    },
-    {
-        "timestamp": "2026-08-08T13:36:22.880372",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309243904
-    },
-    {
-        "timestamp": "2026-08-08T13:36:28.222761",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313331712
-    },
-    {
-        "timestamp": "2026-08-08T13:36:28.258301",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 369979392
-    },
-    {
-        "timestamp": "2026-08-08T13:36:28.259314",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309243904
-    },
-    {
-        "timestamp": "2026-08-08T13:36:28.298666",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297517056
-    },
-    {
-        "timestamp": "2026-08-08T13:36:33.523549",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313331712
-    },
-    {
-        "timestamp": "2026-08-08T13:36:33.524110",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 369979392
-    },
-    {
-        "timestamp": "2026-08-08T13:36:33.525224",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309243904
-    },
-    {
-        "timestamp": "2026-08-08T13:36:33.526336",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297517056
-    },
-    {
-        "timestamp": "2026-08-08T13:36:33.550551",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73936896
-    },
-    {
-        "timestamp": "2026-08-08T13:36:33.567239",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147468288
-    },
-    {
-        "timestamp": "2026-08-08T13:36:33.584679",
-        "container": "redis",
-        "cpu_percent": 0.0,
-        "memory_usage": 13152256
-    },
-    {
-        "timestamp": "2026-08-08T13:36:44.126110",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313331712
-    },
-    {
-        "timestamp": "2026-08-08T13:36:44.169853",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309243904
-    },
-    {
-        "timestamp": "2026-08-08T13:36:44.219232",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297537536
-    },
-    {
-        "timestamp": "2026-08-08T13:36:49.408463",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313331712
-    },
-    {
-        "timestamp": "2026-08-08T13:36:49.430981",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370368512
-    },
-    {
-        "timestamp": "2026-08-08T13:36:49.432489",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309243904
-    },
-    {
-        "timestamp": "2026-08-08T13:36:49.432489",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297537536
-    },
-    {
-        "timestamp": "2026-08-08T13:36:49.459178",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147464192
-    },
-    {
-        "timestamp": "2026-08-08T13:36:54.622509",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313331712
-    },
-    {
-        "timestamp": "2026-08-08T13:36:54.623522",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370368512
-    },
-    {
-        "timestamp": "2026-08-08T13:36:54.624583",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309243904
-    },
-    {
-        "timestamp": "2026-08-08T13:36:54.626208",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297537536
-    },
-    {
-        "timestamp": "2026-08-08T13:36:54.645385",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73936896
-    },
-    {
-        "timestamp": "2026-08-08T13:36:54.645385",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147464192
-    },
-    {
-        "timestamp": "2026-08-08T13:36:59.870319",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309243904
-    },
-    {
-        "timestamp": "2026-08-08T13:36:59.925102",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297541632
-    },
-    {
-        "timestamp": "2026-08-08T13:37:05.177449",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313331712
-    },
-    {
-        "timestamp": "2026-08-08T13:37:05.197783",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370221056
-    },
-    {
-        "timestamp": "2026-08-08T13:37:05.198783",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309243904
-    },
-    {
-        "timestamp": "2026-08-08T13:37:05.199784",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297541632
-    },
-    {
-        "timestamp": "2026-08-08T13:37:10.369475",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313331712
-    },
-    {
-        "timestamp": "2026-08-08T13:37:10.370025",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370221056
-    },
-    {
-        "timestamp": "2026-08-08T13:37:10.371131",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309243904
-    },
-    {
-        "timestamp": "2026-08-08T13:37:10.372253",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297541632
-    },
-    {
-        "timestamp": "2026-08-08T13:37:10.396491",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73940992
-    },
-    {
-        "timestamp": "2026-08-08T13:37:10.420004",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147468288
-    },
-    {
-        "timestamp": "2026-08-08T13:37:15.667116",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309243904
-    },
-    {
-        "timestamp": "2026-08-08T13:37:15.689648",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297541632
-    },
-    {
-        "timestamp": "2026-08-08T13:37:20.929622",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313331712
-    },
-    {
-        "timestamp": "2026-08-08T13:37:20.973468",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370012160
-    },
-    {
-        "timestamp": "2026-08-08T13:37:20.974468",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309243904
-    },
-    {
-        "timestamp": "2026-08-08T13:37:21.002526",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297541632
-    },
-    {
-        "timestamp": "2026-08-08T13:37:26.161318",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313331712
-    },
-    {
-        "timestamp": "2026-08-08T13:37:26.162390",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370012160
-    },
-    {
-        "timestamp": "2026-08-08T13:37:26.162908",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309243904
-    },
-    {
-        "timestamp": "2026-08-08T13:37:26.163446",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297541632
-    },
-    {
-        "timestamp": "2026-08-08T13:37:26.181104",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73940992
-    },
-    {
-        "timestamp": "2026-08-08T13:37:26.196629",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147464192
-    },
-    {
-        "timestamp": "2026-08-08T13:37:26.214529",
-        "container": "redis",
-        "cpu_percent": 0.0,
-        "memory_usage": 13119488
-    },
-    {
-        "timestamp": "2026-08-08T13:37:36.580070",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 310689792
-    },
-    {
-        "timestamp": "2026-08-08T13:37:36.634868",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297541632
-    },
-    {
-        "timestamp": "2026-08-08T13:37:41.889941",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313331712
-    },
-    {
-        "timestamp": "2026-08-08T13:37:41.916803",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370065408
-    },
-    {
-        "timestamp": "2026-08-08T13:37:41.918808",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 310689792
-    },
-    {
-        "timestamp": "2026-08-08T13:37:41.919803",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297541632
-    },
-    {
-        "timestamp": "2026-08-08T13:37:41.939330",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147464192
-    },
-    {
-        "timestamp": "2026-08-08T13:37:47.164497",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313331712
-    },
-    {
-        "timestamp": "2026-08-08T13:37:47.165063",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370065408
-    },
-    {
-        "timestamp": "2026-08-08T13:37:47.166691",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 310689792
-    },
-    {
-        "timestamp": "2026-08-08T13:37:47.167297",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297541632
-    },
-    {
-        "timestamp": "2026-08-08T13:37:47.190084",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73936896
-    },
-    {
-        "timestamp": "2026-08-08T13:37:47.191088",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147464192
-    },
-    {
-        "timestamp": "2026-08-08T13:37:47.209861",
-        "container": "redis",
-        "cpu_percent": 0.0,
-        "memory_usage": 12857344
-    },
-    {
-        "timestamp": "2026-08-08T13:37:52.430431",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 310681600
-    },
-    {
-        "timestamp": "2026-08-08T13:37:57.676745",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313331712
-    },
-    {
-        "timestamp": "2026-08-08T13:37:57.677760",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 310681600
-    },
-    {
-        "timestamp": "2026-08-08T13:37:57.730017",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297734144
-    },
-    {
-        "timestamp": "2026-08-08T13:38:02.917433",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313331712
-    },
-    {
-        "timestamp": "2026-08-08T13:38:02.942817",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370421760
-    },
-    {
-        "timestamp": "2026-08-08T13:38:02.943923",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 310681600
-    },
-    {
-        "timestamp": "2026-08-08T13:38:02.945050",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297734144
-    },
-    {
-        "timestamp": "2026-08-08T13:38:02.969568",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147013632
-    },
-    {
-        "timestamp": "2026-08-08T13:38:02.994501",
-        "container": "redis",
-        "cpu_percent": 0.0,
-        "memory_usage": 12857344
-    },
-    {
-        "timestamp": "2026-08-08T13:38:13.436535",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313331712
-    },
-    {
-        "timestamp": "2026-08-08T13:38:13.495653",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 310595584
-    },
-    {
-        "timestamp": "2026-08-08T13:38:13.546372",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 298762240
-    },
-    {
-        "timestamp": "2026-08-08T13:38:18.715779",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313331712
-    },
-    {
-        "timestamp": "2026-08-08T13:38:18.778636",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370507776
-    },
-    {
-        "timestamp": "2026-08-08T13:38:18.779655",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 310595584
-    },
-    {
-        "timestamp": "2026-08-08T13:38:18.780773",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 298762240
-    },
-    {
-        "timestamp": "2026-08-08T13:38:18.800053",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 146976768
-    },
-    {
-        "timestamp": "2026-08-08T13:38:29.231520",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309563392
-    },
-    {
-        "timestamp": "2026-08-08T13:38:29.283731",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297578496
-    },
-    {
-        "timestamp": "2026-08-08T13:38:34.495818",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313331712
-    },
-    {
-        "timestamp": "2026-08-08T13:38:34.532246",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370266112
-    },
-    {
-        "timestamp": "2026-08-08T13:38:34.533243",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309563392
-    },
-    {
-        "timestamp": "2026-08-08T13:38:34.533243",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297578496
-    },
-    {
-        "timestamp": "2026-08-08T13:38:34.551872",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 146989056
-    },
-    {
-        "timestamp": "2026-08-08T13:38:39.721686",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313331712
-    },
-    {
-        "timestamp": "2026-08-08T13:38:39.722216",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370266112
-    },
-    {
-        "timestamp": "2026-08-08T13:38:39.723308",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309563392
-    },
-    {
-        "timestamp": "2026-08-08T13:38:39.723856",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297578496
-    },
-    {
-        "timestamp": "2026-08-08T13:38:39.748073",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73871360
-    },
-    {
-        "timestamp": "2026-08-08T13:38:39.748638",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 146989056
-    },
-    {
-        "timestamp": "2026-08-08T13:38:39.769237",
-        "container": "redis",
-        "cpu_percent": 0.0,
-        "memory_usage": 13119488
-    },
-    {
-        "timestamp": "2026-08-08T13:38:50.223119",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313335808
-    },
-    {
-        "timestamp": "2026-08-08T13:38:50.277964",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309563392
-    },
-    {
-        "timestamp": "2026-08-08T13:38:50.333829",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297582592
-    },
-    {
-        "timestamp": "2026-08-08T13:38:55.499607",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313335808
-    },
-    {
-        "timestamp": "2026-08-08T13:38:55.522945",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370311168
-    },
-    {
-        "timestamp": "2026-08-08T13:38:55.523945",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309563392
-    },
-    {
-        "timestamp": "2026-08-08T13:38:55.524947",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297582592
-    },
-    {
-        "timestamp": "2026-08-08T13:38:55.553347",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73887744
-    },
-    {
-        "timestamp": "2026-08-08T13:38:55.569773",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 192606208
-    },
-    {
-        "timestamp": "2026-08-08T13:39:00.734834",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313335808
-    },
-    {
-        "timestamp": "2026-08-08T13:39:00.735833",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370311168
-    },
-    {
-        "timestamp": "2026-08-08T13:39:00.736828",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309563392
-    },
-    {
-        "timestamp": "2026-08-08T13:39:00.736828",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297582592
-    },
-    {
-        "timestamp": "2026-08-08T13:39:00.737827",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73887744
-    },
-    {
-        "timestamp": "2026-08-08T13:39:00.737827",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 192606208
-    },
-    {
-        "timestamp": "2026-08-08T13:39:00.758335",
-        "container": "redis",
-        "cpu_percent": 0.0,
-        "memory_usage": 12857344
-    },
-    {
-        "timestamp": "2026-08-08T13:39:06.017506",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309563392
-    },
-    {
-        "timestamp": "2026-08-08T13:39:06.071178",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297586688
-    },
-    {
-        "timestamp": "2026-08-08T13:39:11.367398",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313339904
-    },
-    {
-        "timestamp": "2026-08-08T13:39:11.394368",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370565120
-    },
-    {
-        "timestamp": "2026-08-08T13:39:11.395364",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309563392
-    },
-    {
-        "timestamp": "2026-08-08T13:39:11.396363",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297586688
-    },
-    {
-        "timestamp": "2026-08-08T13:39:16.646048",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313339904
-    },
-    {
-        "timestamp": "2026-08-08T13:39:16.647051",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370565120
-    },
-    {
-        "timestamp": "2026-08-08T13:39:16.648051",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309563392
-    },
-    {
-        "timestamp": "2026-08-08T13:39:16.649047",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297586688
-    },
-    {
-        "timestamp": "2026-08-08T13:39:16.671822",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73940992
-    },
-    {
-        "timestamp": "2026-08-08T13:39:16.689834",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147021824
-    },
-    {
-        "timestamp": "2026-08-08T13:39:21.984732",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309567488
-    },
-    {
-        "timestamp": "2026-08-08T13:39:27.262857",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313339904
-    },
-    {
-        "timestamp": "2026-08-08T13:39:27.289046",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370380800
-    },
-    {
-        "timestamp": "2026-08-08T13:39:27.290046",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309567488
-    },
-    {
-        "timestamp": "2026-08-08T13:39:27.347755",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297594880
-    },
-    {
-        "timestamp": "2026-08-08T13:39:32.620537",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313339904
-    },
-    {
-        "timestamp": "2026-08-08T13:39:32.620537",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370380800
-    },
-    {
-        "timestamp": "2026-08-08T13:39:32.621535",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309567488
-    },
-    {
-        "timestamp": "2026-08-08T13:39:32.623040",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297594880
-    },
-    {
-        "timestamp": "2026-08-08T13:39:32.647640",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73940992
-    },
-    {
-        "timestamp": "2026-08-08T13:39:32.680760",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147046400
-    },
-    {
-        "timestamp": "2026-08-08T13:39:38.020568",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309583872
-    },
-    {
-        "timestamp": "2026-08-08T13:39:43.356393",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313339904
-    },
-    {
-        "timestamp": "2026-08-08T13:39:43.357392",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309583872
-    },
-    {
-        "timestamp": "2026-08-08T13:39:43.416387",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297586688
-    },
-    {
-        "timestamp": "2026-08-08T13:39:48.620483",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313339904
-    },
-    {
-        "timestamp": "2026-08-08T13:39:48.672271",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370384896
-    },
-    {
-        "timestamp": "2026-08-08T13:39:48.673275",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309583872
-    },
-    {
-        "timestamp": "2026-08-08T13:39:48.674275",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297586688
-    },
-    {
-        "timestamp": "2026-08-08T13:39:48.700031",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73940992
-    },
-    {
-        "timestamp": "2026-08-08T13:39:48.722222",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147054592
-    },
-    {
-        "timestamp": "2026-08-08T13:39:53.960669",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313339904
-    },
-    {
-        "timestamp": "2026-08-08T13:39:53.961182",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370384896
-    },
-    {
-        "timestamp": "2026-08-08T13:39:53.962688",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309583872
-    },
-    {
-        "timestamp": "2026-08-08T13:39:53.963697",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297586688
-    },
-    {
-        "timestamp": "2026-08-08T13:39:53.963697",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73940992
-    },
-    {
-        "timestamp": "2026-08-08T13:39:53.963697",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147054592
-    },
-    {
-        "timestamp": "2026-08-08T13:39:53.995264",
-        "container": "redis",
-        "cpu_percent": 0.0,
-        "memory_usage": 12857344
-    },
-    {
-        "timestamp": "2026-08-08T13:39:59.266228",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309583872
-    },
-    {
-        "timestamp": "2026-08-08T13:39:59.319146",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297590784
-    },
-    {
-        "timestamp": "2026-08-08T13:40:04.622508",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313348096
-    },
-    {
-        "timestamp": "2026-08-08T13:40:04.648962",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370384896
-    },
-    {
-        "timestamp": "2026-08-08T13:40:04.649964",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309583872
-    },
-    {
-        "timestamp": "2026-08-08T13:40:04.650961",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297590784
-    },
-    {
-        "timestamp": "2026-08-08T13:40:04.674259",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147070976
-    },
-    {
-        "timestamp": "2026-08-08T13:40:09.955828",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313348096
-    },
-    {
-        "timestamp": "2026-08-08T13:40:09.957155",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370384896
-    },
-    {
-        "timestamp": "2026-08-08T13:40:09.958168",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309583872
-    },
-    {
-        "timestamp": "2026-08-08T13:40:09.959688",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297590784
-    },
-    {
-        "timestamp": "2026-08-08T13:40:09.992954",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73936896
-    },
-    {
-        "timestamp": "2026-08-08T13:40:09.993542",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147070976
-    },
-    {
-        "timestamp": "2026-08-08T13:40:10.020162",
-        "container": "redis",
-        "cpu_percent": 0.0,
-        "memory_usage": 12857344
-    },
-    {
-        "timestamp": "2026-08-08T13:40:15.291056",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309600256
-    },
-    {
-        "timestamp": "2026-08-08T13:40:20.649598",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313430016
-    },
-    {
-        "timestamp": "2026-08-08T13:40:20.685491",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309600256
-    },
-    {
-        "timestamp": "2026-08-08T13:40:20.742936",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297586688
-    },
-    {
-        "timestamp": "2026-08-08T13:40:25.993992",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313430016
-    },
-    {
-        "timestamp": "2026-08-08T13:40:26.020723",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370384896
-    },
-    {
-        "timestamp": "2026-08-08T13:40:26.021721",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309600256
-    },
-    {
-        "timestamp": "2026-08-08T13:40:26.023726",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297586688
-    },
-    {
-        "timestamp": "2026-08-08T13:40:26.052816",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73936896
-    },
-    {
-        "timestamp": "2026-08-08T13:40:26.081742",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147087360
-    },
-    {
-        "timestamp": "2026-08-08T13:40:31.372311",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313430016
-    },
-    {
-        "timestamp": "2026-08-08T13:40:31.372876",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370384896
-    },
-    {
-        "timestamp": "2026-08-08T13:40:31.374003",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309600256
-    },
-    {
-        "timestamp": "2026-08-08T13:40:31.375123",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297586688
-    },
-    {
-        "timestamp": "2026-08-08T13:40:31.375684",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73936896
-    },
-    {
-        "timestamp": "2026-08-08T13:40:31.376231",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147087360
-    },
-    {
-        "timestamp": "2026-08-08T13:40:31.397325",
-        "container": "redis",
-        "cpu_percent": 0.0,
-        "memory_usage": 12857344
-    },
-    {
-        "timestamp": "2026-08-08T13:40:36.693965",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309612544
-    },
-    {
-        "timestamp": "2026-08-08T13:40:36.737975",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297590784
-    },
-    {
-        "timestamp": "2026-08-08T13:40:42.074985",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313425920
-    },
-    {
-        "timestamp": "2026-08-08T13:40:42.103630",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370626560
-    },
-    {
-        "timestamp": "2026-08-08T13:40:42.104627",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309612544
-    },
-    {
-        "timestamp": "2026-08-08T13:40:42.105628",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297590784
-    },
-    {
-        "timestamp": "2026-08-08T13:40:47.357777",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313425920
-    },
-    {
-        "timestamp": "2026-08-08T13:40:47.358789",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370626560
-    },
-    {
-        "timestamp": "2026-08-08T13:40:47.360039",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309612544
-    },
-    {
-        "timestamp": "2026-08-08T13:40:47.360039",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297590784
-    },
-    {
-        "timestamp": "2026-08-08T13:40:47.383261",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73953280
-    },
-    {
-        "timestamp": "2026-08-08T13:40:47.402092",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147099648
-    },
-    {
-        "timestamp": "2026-08-08T13:40:47.416787",
-        "container": "redis",
-        "cpu_percent": 0.0,
-        "memory_usage": 12857344
-    },
-    {
-        "timestamp": "2026-08-08T13:40:57.915484",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313425920
-    },
-    {
-        "timestamp": "2026-08-08T13:40:57.970787",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309714944
-    },
-    {
-        "timestamp": "2026-08-08T13:40:58.024108",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297709568
-    },
-    {
-        "timestamp": "2026-08-08T13:41:03.273487",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313425920
-    },
-    {
-        "timestamp": "2026-08-08T13:41:03.325694",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370720768
-    },
-    {
-        "timestamp": "2026-08-08T13:41:03.326708",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309714944
-    },
-    {
-        "timestamp": "2026-08-08T13:41:03.328701",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297709568
-    },
-    {
-        "timestamp": "2026-08-08T13:41:03.350472",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147132416
-    },
-    {
-        "timestamp": "2026-08-08T13:41:08.576141",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313425920
-    },
-    {
-        "timestamp": "2026-08-08T13:41:08.577147",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370720768
-    },
-    {
-        "timestamp": "2026-08-08T13:41:08.578142",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309714944
-    },
-    {
-        "timestamp": "2026-08-08T13:41:08.579141",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297709568
-    },
-    {
-        "timestamp": "2026-08-08T13:41:08.579141",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147132416
-    },
-    {
-        "timestamp": "2026-08-08T13:41:08.603223",
-        "container": "redis",
-        "cpu_percent": 0.0,
-        "memory_usage": 13119488
-    },
-    {
-        "timestamp": "2026-08-08T13:41:13.892028",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309706752
-    },
-    {
-        "timestamp": "2026-08-08T13:41:19.160008",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313425920
-    },
-    {
-        "timestamp": "2026-08-08T13:41:19.161681",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309706752
-    },
-    {
-        "timestamp": "2026-08-08T13:41:19.218215",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297619456
-    },
-    {
-        "timestamp": "2026-08-08T13:41:24.482331",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313425920
-    },
-    {
-        "timestamp": "2026-08-08T13:41:24.515285",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370487296
-    },
-    {
-        "timestamp": "2026-08-08T13:41:24.515285",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309706752
-    },
-    {
-        "timestamp": "2026-08-08T13:41:24.516794",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297619456
-    },
-    {
-        "timestamp": "2026-08-08T13:41:24.547016",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 76619776
-    },
-    {
-        "timestamp": "2026-08-08T13:41:24.566689",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147140608
-    },
-    {
-        "timestamp": "2026-08-08T13:41:26.010724",
-        "container": "api-gateway",
-        "cpu_percent": 0.1482294264339152,
-        "memory_usage": 313425920,
-        "memory_usage_percent": 3.763029464933798
-    },
-    {
-        "timestamp": "2026-08-08T13:41:26.011235",
-        "container": "auth-service",
-        "cpu_percent": 0.2961596009975062,
-        "memory_usage": 370487296,
-        "memory_usage_percent": 4.448115239580854
-    },
-    {
-        "timestamp": "2026-08-08T13:41:26.011235",
-        "container": "order-service",
-        "cpu_percent": 0.2906532663316583,
-        "memory_usage": 309706752,
-        "memory_usage_percent": 3.7183766845605635
-    },
-    {
-        "timestamp": "2026-08-08T13:41:26.013364",
-        "container": "payment-service",
-        "cpu_percent": 0.24,
-        "memory_usage": 297619456,
-        "memory_usage_percent": 3.5732551483475516
-    },
-    {
-        "timestamp": "2026-08-08T13:41:26.013364",
-        "container": "postgres-db",
-        "cpu_percent": 2.9236724565756824,
-        "memory_usage": 76619776,
-        "memory_usage_percent": 0.9199062881737012
-    },
-    {
-        "timestamp": "2026-08-08T13:41:26.013364",
-        "container": "rabbitmq",
-        "cpu_percent": 0.27449631449631445,
-        "memory_usage": 147140608,
-        "memory_usage_percent": 1.766587917783806
-    },
-    {
-        "timestamp": "2026-08-08T13:41:26.037904",
-        "container": "redis",
-        "cpu_percent": 0.7966169154228856,
-        "memory_usage": 12861440,
-        "memory_usage_percent": 0.154416002612286
-    },
-    {
-        "timestamp": "2026-08-08T13:41:29.878771",
+        "timestamp": "2026-08-08T14:11:33.015935",
         "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309706752
+        "cpu_percent": 11.838484848484848,
+        "memory_usage": 291483648,
+        "memory_usage_percent": 3.499587896145895
     },
     {
-        "timestamp": "2026-08-08T13:41:35.233141",
+        "timestamp": "2026-08-08T14:11:38.128034",
         "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309706752
+        "cpu_percent": 0.5240095465393795,
+        "memory_usage": 291266560,
+        "memory_usage_percent": 3.4969815113884257
     },
     {
-        "timestamp": "2026-08-08T13:41:35.265556",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297619456
-    },
-    {
-        "timestamp": "2026-08-08T13:41:36.669624",
-        "container": "order-service",
-        "cpu_percent": 0.28834170854271357,
-        "memory_usage": 309706752,
-        "memory_usage_percent": 3.7183766845605635
-    },
-    {
-        "timestamp": "2026-08-08T13:41:36.721406",
-        "container": "payment-service",
-        "cpu_percent": 0.3830046948356808,
-        "memory_usage": 297619456,
-        "memory_usage_percent": 3.5732551483475516
-    },
-    {
-        "timestamp": "2026-08-08T13:41:40.641899",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313425920
-    },
-    {
-        "timestamp": "2026-08-08T13:41:40.662709",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370491392
-    },
-    {
-        "timestamp": "2026-08-08T13:41:40.663726",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309706752
-    },
-    {
-        "timestamp": "2026-08-08T13:41:40.664726",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297619456
-    },
-    {
-        "timestamp": "2026-08-08T13:41:42.048343",
-        "container": "api-gateway",
-        "cpu_percent": 1.3646874999999998,
-        "memory_usage": 313425920,
-        "memory_usage_percent": 3.763029464933798
-    },
-    {
-        "timestamp": "2026-08-08T13:41:42.049857",
-        "container": "auth-service",
-        "cpu_percent": 2.2241604010025062,
-        "memory_usage": 370491392,
-        "memory_usage_percent": 4.44816441665175
-    },
-    {
-        "timestamp": "2026-08-08T13:41:42.050408",
-        "container": "order-service",
-        "cpu_percent": 0.28834170854271357,
-        "memory_usage": 309706752,
-        "memory_usage_percent": 3.7183766845605635
-    },
-    {
-        "timestamp": "2026-08-08T13:41:42.052068",
-        "container": "payment-service",
-        "cpu_percent": 0.3830046948356808,
-        "memory_usage": 297619456,
-        "memory_usage_percent": 3.5732551483475516
-    },
-    {
-        "timestamp": "2026-08-08T13:41:42.075051",
-        "container": "rabbitmq",
-        "cpu_percent": 0.32253041362530416,
-        "memory_usage": 147161088,
-        "memory_usage_percent": 1.766833803138284
-    },
-    {
-        "timestamp": "2026-08-08T13:41:45.933486",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313425920
-    },
-    {
-        "timestamp": "2026-08-08T13:41:45.933486",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370491392
-    },
-    {
-        "timestamp": "2026-08-08T13:41:45.935482",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309706752
-    },
-    {
-        "timestamp": "2026-08-08T13:41:45.937482",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297619456
-    },
-    {
-        "timestamp": "2026-08-08T13:41:45.963594",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73912320
-    },
-    {
-        "timestamp": "2026-08-08T13:41:45.964742",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147161088
-    },
-    {
-        "timestamp": "2026-08-08T13:41:45.987810",
-        "container": "redis",
-        "cpu_percent": 0.0,
-        "memory_usage": 12857344
-    },
-    {
-        "timestamp": "2026-08-08T13:41:56.454621",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309706752
-    },
-    {
-        "timestamp": "2026-08-08T13:41:56.512732",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297627648
-    },
-    {
-        "timestamp": "2026-08-08T13:41:57.923740",
-        "container": "api-gateway",
-        "cpu_percent": 12.371083123425693,
-        "memory_usage": 313708544,
-        "memory_usage_percent": 3.7664226828255964
-    },
-    {
-        "timestamp": "2026-08-08T13:41:57.924739",
-        "container": "order-service",
-        "cpu_percent": 0.27541147132169574,
-        "memory_usage": 309706752,
-        "memory_usage_percent": 3.7183766845605635
-    },
-    {
-        "timestamp": "2026-08-08T13:41:57.926745",
-        "container": "payment-service",
-        "cpu_percent": 0.2258,
-        "memory_usage": 297627648,
-        "memory_usage_percent": 3.573353502489343
-    },
-    {
-        "timestamp": "2026-08-08T13:42:01.745164",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313708544
-    },
-    {
-        "timestamp": "2026-08-08T13:42:01.770359",
-        "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370515968
-    },
-    {
-        "timestamp": "2026-08-08T13:42:01.772372",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309706752
-    },
-    {
-        "timestamp": "2026-08-08T13:42:01.773371",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297627648
-    },
-    {
-        "timestamp": "2026-08-08T13:42:01.804336",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147189760
-    },
-    {
-        "timestamp": "2026-08-08T13:42:03.177331",
-        "container": "api-gateway",
-        "cpu_percent": 12.371083123425693,
-        "memory_usage": 313708544,
-        "memory_usage_percent": 3.7664226828255964
-    },
-    {
-        "timestamp": "2026-08-08T13:42:03.178333",
-        "container": "auth-service",
-        "cpu_percent": 13.637664974619291,
-        "memory_usage": 370515968,
-        "memory_usage_percent": 4.4484594790771235
-    },
-    {
-        "timestamp": "2026-08-08T13:42:03.179032",
-        "container": "order-service",
-        "cpu_percent": 0.27541147132169574,
-        "memory_usage": 309706752,
-        "memory_usage_percent": 3.7183766845605635
-    },
-    {
-        "timestamp": "2026-08-08T13:42:03.179032",
-        "container": "payment-service",
-        "cpu_percent": 0.2258,
-        "memory_usage": 297627648,
-        "memory_usage_percent": 3.573353502489343
-    },
-    {
-        "timestamp": "2026-08-08T13:42:03.208642",
-        "container": "postgres-db",
-        "cpu_percent": 2.044089775561097,
-        "memory_usage": 74461184,
-        "memory_usage_percent": 0.8939899718117029
-    },
-    {
-        "timestamp": "2026-08-08T13:42:03.208642",
-        "container": "rabbitmq",
-        "cpu_percent": 56.164700239808155,
-        "memory_usage": 147189760,
-        "memory_usage_percent": 1.7671780426345534
-    },
-    {
-        "timestamp": "2026-08-08T13:42:08.429105",
-        "container": "order-service",
-        "cpu_percent": 2.156381909547739,
-        "memory_usage": 309710848,
-        "memory_usage_percent": 3.7184258616314594
-    },
-    {
-        "timestamp": "2026-08-08T13:42:13.779387",
-        "container": "order-service",
-        "cpu_percent": 0.20669902912621357,
-        "memory_usage": 309706752,
-        "memory_usage_percent": 3.7183766845605635
-    },
-    {
-        "timestamp": "2026-08-08T13:42:17.617822",
-        "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313442304
-    },
-    {
-        "timestamp": "2026-08-08T13:42:17.618385",
-        "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309706752
-    },
-    {
-        "timestamp": "2026-08-08T13:42:17.676179",
-        "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297631744
-    },
-    {
-        "timestamp": "2026-08-08T13:42:19.080503",
-        "container": "api-gateway",
-        "cpu_percent": 0.8131372549019608,
-        "memory_usage": 313442304,
-        "memory_usage_percent": 3.76322617321738
-    },
-    {
-        "timestamp": "2026-08-08T13:42:19.107894",
-        "container": "auth-service",
-        "cpu_percent": 0.3410945273631841,
-        "memory_usage": 370503680,
-        "memory_usage_percent": 4.448311947864436
-    },
-    {
-        "timestamp": "2026-08-08T13:42:19.108901",
-        "container": "order-service",
-        "cpu_percent": 0.20669902912621357,
-        "memory_usage": 309706752,
-        "memory_usage_percent": 3.7183766845605635
-    },
-    {
-        "timestamp": "2026-08-08T13:42:19.109899",
-        "container": "payment-service",
-        "cpu_percent": 0.2458937198067633,
-        "memory_usage": 297631744,
-        "memory_usage_percent": 3.573402679560239
-    },
-    {
-        "timestamp": "2026-08-08T13:42:22.885082",
+        "timestamp": "2026-08-08T14:11:43.256182",
         "container": "api-gateway",
-        "cpu_percent": 0.0,
-        "memory_usage": 313442304
+        "cpu_percent": 1.317007481296758,
+        "memory_usage": 288063488,
+        "memory_usage_percent": 3.4585250419480413
     },
     {
-        "timestamp": "2026-08-08T13:42:22.885861",
+        "timestamp": "2026-08-08T14:11:43.303633",
         "container": "auth-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 370503680
+        "cpu_percent": 0.41275949367088605,
+        "memory_usage": 315191296,
+        "memory_usage_percent": 3.784224782489815
     },
     {
-        "timestamp": "2026-08-08T13:42:22.887024",
+        "timestamp": "2026-08-08T14:11:43.304631",
         "container": "order-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 309706752
+        "cpu_percent": 0.5240095465393795,
+        "memory_usage": 291266560,
+        "memory_usage_percent": 3.4969815113884257
     },
     {
-        "timestamp": "2026-08-08T13:42:22.888183",
+        "timestamp": "2026-08-08T14:11:43.351725",
         "container": "payment-service",
-        "cpu_percent": 0.0,
-        "memory_usage": 297631744
-    },
-    {
-        "timestamp": "2026-08-08T13:42:22.924220",
-        "container": "postgres-db",
-        "cpu_percent": 0.0,
-        "memory_usage": 73936896
-    },
-    {
-        "timestamp": "2026-08-08T13:42:22.953740",
-        "container": "rabbitmq",
-        "cpu_percent": 0.0,
-        "memory_usage": 147189760
+        "cpu_percent": 11.680995024875623,
+        "memory_usage": 309387264,
+        "memory_usage_percent": 3.714540873030704
     }
 ]

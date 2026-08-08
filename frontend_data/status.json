@@ -1,61 +1,43 @@
 [
     {
-        "id": "b2aefef6a27c",
-        "name": "30d07d0ed946_payment-service",
-        "status": "created",
-        "health": "unknown"
-    },
-    {
-        "id": "c9392761f2e4",
-        "name": "6ea96be15fdd_api-gateway",
-        "status": "created",
-        "health": "unknown"
-    },
-    {
-        "id": "f4cd79ad8d13",
-        "name": "9046b968e5ab_order-service",
-        "status": "created",
-        "health": "unknown"
-    },
-    {
-        "id": "9046b968e5ab",
+        "id": "8bcc5c6a4f1f",
         "name": "order-service",
         "status": "running",
         "health": "healthy"
     },
     {
-        "id": "30d07d0ed946",
-        "name": "payment-service",
-        "status": "running",
-        "health": "healthy"
-    },
-    {
-        "id": "6ea96be15fdd",
-        "name": "api-gateway",
-        "status": "running",
-        "health": "healthy"
-    },
-    {
-        "id": "244e7eeb850d",
+        "id": "e4e06c15b721",
         "name": "auth-service",
         "status": "running",
         "health": "healthy"
     },
     {
-        "id": "a44434dfa6dd",
-        "name": "rabbitmq",
+        "id": "850bd4afd350",
+        "name": "payment-service",
         "status": "running",
         "health": "healthy"
     },
     {
-        "id": "ee1acc57d7ed",
+        "id": "a519a8d13d5d",
+        "name": "api-gateway",
+        "status": "running",
+        "health": "healthy"
+    },
+    {
+        "id": "17ca13c8d67e",
         "name": "postgres-db",
         "status": "running",
         "health": "healthy"
     },
     {
-        "id": "26b5a802a9f6",
+        "id": "4d9f6f2b24c6",
         "name": "redis",
+        "status": "running",
+        "health": "healthy"
+    },
+    {
+        "id": "9b38fa349770",
+        "name": "rabbitmq",
         "status": "running",
         "health": "healthy"
     }

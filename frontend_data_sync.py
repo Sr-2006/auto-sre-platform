@@ -56,7 +56,16 @@ def atomic_write(filepath, data):
     fd, temp_path = tempfile.mkstemp(dir=dir_name)
     with os.fdopen(fd, 'w') as f:
         json.dump(data, f, indent=4)
-    os.replace(temp_path, filepath)
+    try:
+        os.replace(temp_path, filepath)
+    except PermissionError:
+        # Fallback to direct write if target is locked/unreplaceable
+        with open(filepath, 'w') as f:
+            json.dump(data, f, indent=4)
+        try:
+            os.remove(temp_path)
+        except Exception:
+            pass
 
 def read_json(filepath):
     if os.path.exists(filepath):
