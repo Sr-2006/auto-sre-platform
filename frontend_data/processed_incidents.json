@@ -1,6 +1,6 @@
 {
   "batch_id": "frontend_sync_batch",
-  "incident_count": 4,
+  "incident_count": 9,
   "incidents": [
     {
       "cluster_id": "api-gateway_2",
@@ -9,8 +9,68 @@
       "severity": "CRITICAL",
       "source_container": "api-gateway",
       "container_state": "running",
-      "occurrence_count": 1,
-      "priority_score": 12.04
+      "occurrence_count": 97,
+      "priority_score": 79.65
+    },
+    {
+      "cluster_id": "order-service_3",
+      "template_hash": "1e7f39f7b34c041ddd1e296d4ff54839f093f8c7de158a0432b8ff9db0f22c30",
+      "template": "<NUM>-<NUM>-<NUM>T<NUM>:<NUM>:<NUM>.<NUM>Z ERROR <NUM> --- [order-service] [nio-<NUM>-exec-<NUM>] [<NUM>e<NUM>cadcdd<NUM>d<NUM>a<NUM>fe<NUM>db<NUM>-<NUM>ecca<NUM>a<NUM>] c.a.o.exception.GlobalExceptionHandler : [SRE-LOG-EVENT] System Failure: /actuator/prometheus. StackTrace:",
+      "severity": "HIGH",
+      "source_container": "order-service",
+      "container_state": "running",
+      "occurrence_count": 162,
+      "priority_score": 66.37
+    },
+    {
+      "cluster_id": "payment-service_3",
+      "template_hash": "efa622508aade83cc081110364d2d6a83c8e896b1904ab60f1eb2d34514d37ba",
+      "template": "<NUM>-<NUM>-<NUM>T<NUM>:<NUM>:<NUM>.<NUM>Z ERROR <NUM> --- <*> [nio-<NUM>-exec-<NUM>] <*> <*> : [SRE-LOG-EVENT] System Failure: /actuator/prometheus. StackTrace:",
+      "severity": "HIGH",
+      "source_container": "payment-service",
+      "container_state": "running",
+      "occurrence_count": 109,
+      "priority_score": 61.24
+    },
+    {
+      "cluster_id": "auth-service_5",
+      "template_hash": "6d5145946eed7f06688cd725583b054c19d77e120a7d67da001a929abf205347",
+      "template": "<NUM>-<NUM>-<NUM>T<NUM>:<NUM>:<NUM>.<NUM>Z WARN <NUM> --- [auth-service] [nio-<NUM>-exec-<NUM>] [ecd<NUM>de<NUM>eb<NUM>a<NUM>b<NUM>f<NUM>d<NUM>be<NUM>b-<NUM>f<NUM>f<NUM>] com.zaxxer.hikari.pool.PoolBase : HikariPool-<NUM> - Failed to validate connection org.postgresql.jdbc.PgConnection@<NUM>c (This connection has been closed.). Possibly consider using a shorter maxLifetime value.",
+      "severity": "HIGH",
+      "source_container": "auth-service",
+      "container_state": "running",
+      "occurrence_count": 25,
+      "priority_score": 42.45
+    },
+    {
+      "cluster_id": "order-service_5",
+      "template_hash": "cc4feeb5fbc4b921c36d5259f30b6657cd38bbc95fcfe5981a8bed0655910e63",
+      "template": "<NUM>-<NUM>-<NUM>T<NUM>:<NUM>:<NUM>.<NUM>Z WARN <NUM> --- <*> [nio-<NUM>-exec-<NUM>] <*> com.zaxxer.hikari.pool.PoolBase : HikariPool-<NUM> - Failed to validate connection <*> (This connection has been closed.). Possibly consider using a shorter maxLifetime value.",
+      "severity": "HIGH",
+      "source_container": "order-service",
+      "container_state": "running",
+      "occurrence_count": 16,
+      "priority_score": 36.91
+    },
+    {
+      "cluster_id": "payment-service_5",
+      "template_hash": "cc4feeb5fbc4b921c36d5259f30b6657cd38bbc95fcfe5981a8bed0655910e63",
+      "template": "<NUM>-<NUM>-<NUM>T<NUM>:<NUM>:<NUM>.<NUM>Z WARN <NUM> --- <*> [nio-<NUM>-exec-<NUM>] <*> com.zaxxer.hikari.pool.PoolBase : HikariPool-<NUM> - Failed to validate connection <*> (This connection has been closed.). Possibly consider using a shorter maxLifetime value.",
+      "severity": "HIGH",
+      "source_container": "payment-service",
+      "container_state": "running",
+      "occurrence_count": 8,
+      "priority_score": 28.63
+    },
+    {
+      "cluster_id": "auth-service_4",
+      "template_hash": "3963d7e6b337a4c387a5d6adb13c4d522c7e141f2d3fa985370c1ab602943827",
+      "template": "<NUM>-<NUM>-<NUM>T<NUM>:<NUM>:<NUM>.<NUM>Z WARN <NUM> --- [auth-service] [nio-<NUM>-exec-<NUM>] [<NUM>fbad<NUM>f<NUM>b<NUM>e<NUM>cb<NUM>caa<NUM>-<NUM>bdbb<NUM>acdc<NUM>fe<NUM>] o.s.b.a.health.HealthEndpointSupport : Health contributor org.springframework.boot.actuate.autoconfigure.health.HealthEndpointConfiguration$AdaptedReactiveHealthContributors$<NUM> (redis) took <NUM>ms to respond",
+      "severity": "MEDIUM",
+      "source_container": "auth-service",
+      "container_state": "running",
+      "occurrence_count": 11,
+      "priority_score": 21.58
     },
     {
       "cluster_id": "payment-service_1",
@@ -23,19 +83,9 @@
       "priority_score": 9.03
     },
     {
-      "cluster_id": "order-service_3",
-      "template_hash": "1e7f39f7b34c041ddd1e296d4ff54839f093f8c7de158a0432b8ff9db0f22c30",
-      "template": "<NUM>-<NUM>-<NUM>T<NUM>:<NUM>:<NUM>.<NUM>Z ERROR <NUM> --- [order-service] [nio-<NUM>-exec-<NUM>] [<NUM>e<NUM>cadcdd<NUM>d<NUM>a<NUM>fe<NUM>db<NUM>-<NUM>ecca<NUM>a<NUM>] c.a.o.exception.GlobalExceptionHandler : [SRE-LOG-EVENT] System Failure: /actuator/prometheus. StackTrace:",
-      "severity": "HIGH",
-      "source_container": "order-service",
-      "container_state": "running",
-      "occurrence_count": 1,
-      "priority_score": 9.03
-    },
-    {
-      "cluster_id": "payment-service_3",
-      "template_hash": "efa622508aade83cc081110364d2d6a83c8e896b1904ab60f1eb2d34514d37ba",
-      "template": "<NUM>-<NUM>-<NUM>T<NUM>:<NUM>:<NUM>.<NUM>Z ERROR <NUM> --- <*> [nio-<NUM>-exec-<NUM>] <*> <*> : [SRE-LOG-EVENT] System Failure: /actuator/prometheus. StackTrace:",
+      "cluster_id": "payment-service_6",
+      "template_hash": "d0516d0459d5db33c073def75e6843c870aa56721a3b56f3bdcc893f4d7b2c7b",
+      "template": "<NUM>-<NUM>-<NUM>T<NUM>:<NUM>:<NUM>.<NUM>Z WARN <NUM> --- [payment-service] [nio-<NUM>-exec-<NUM>] [e<NUM>e<NUM>ba<NUM>e<NUM>e<NUM>c<NUM>fe<NUM>a<NUM>f<NUM>e-<NUM>f<NUM>cf<NUM>fee<NUM>a<NUM>a] o.s.b.a.jdbc.DataSourceHealthIndicator : DataSource health check failed",
       "severity": "HIGH",
       "source_container": "payment-service",
       "container_state": "running",
